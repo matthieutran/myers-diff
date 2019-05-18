@@ -2,7 +2,6 @@
 #include <ctype.h>
 #include <string.h>
 
-
 /* By Dr. William McCarthy
  * string_appendix_b3.c
  */

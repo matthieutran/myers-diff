@@ -1,3 +1,6 @@
+#ifndef edit_h
+#define edit_h
+
 #include "block.h"
 
 #define OPERATION_DELETE 0
@@ -23,3 +26,5 @@ char *edit_text(edit *e, block *block1, block *block2);
 
 /* Prints each individual edit */
 void edit_print(edit *e);
+
+#endif

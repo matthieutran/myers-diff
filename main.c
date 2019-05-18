@@ -3,28 +3,13 @@
  */
 
 #include "myers.h"
+#include "tests.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 int main(int argc, char *argv[]) {
-  char *a[5];
-  char *b[4];
-  int shortest_path_size;
-
-  // TODO: get text from file
-  a[0] = "It is important to spell";
-  a[1] = "check this dokument. On";
-  a[2] = "the other hand, a";
-  a[3] = "misspelled word isn't";
-  a[4] = "the end of the world.";
-
-  b[0] = "It is important to spell";
-  b[1] = "check this document. On";
-  b[2] = "the other hand, a";
-  b[3] = "misspelled word isn't";
-
-  myers *m = make_myers(a, b, 5, 4);
+  run_tests();
 
   /*
   int hi[] = {1, 2, 3, 4, 5};
