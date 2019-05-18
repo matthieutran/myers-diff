@@ -24,8 +24,7 @@ int main(int argc, char *argv[]) {
   b[2] = "the other hand, a";
   b[3] = "misspelled word isn't";
 
-  myers *m = myers_make(a, b, 5, 4);
-  myers_process_diff(m);
+  myers *m = make_myers(a, b, 5, 4);
 
   /*
   int hi[] = {1, 2, 3, 4, 5};

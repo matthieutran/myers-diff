@@ -1,4 +1,2 @@
-#include "edit.h"
-
-/* Prints the end diff result */
-void print_diff(edit *edits);
+/* return the result of stripping white spaces from the end of s (if any) */
+char *rstrip(char *s);
