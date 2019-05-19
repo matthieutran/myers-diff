@@ -10,19 +10,17 @@
 /* Represents the edits we will need to make in the end for printing */
 typedef struct edit edit;
 struct edit {
-  int operation; // 0 - Delete, 1 - Insert, 2 - Equals
-  int old_line;  // Line associated with first block
-  int new_line;  // Line associated with second block
-  char *(*text)(edit *e, block *b1,
-                block *b2); // text associated with the edit
+  int operation;          // 0 - Delete, 1 - Insert, 2 - Equals
+  char *old_line;         // Line associated with first block
+  char *new_line;         // Line associated with second block
+  char *(*text)(edit *e); // text associated with the edit
 };
 
 /* returns a newly allocated edit object */
-edit *make_edit(int operation, int old_line, int new_line, block *b1,
-                block *b2);
+edit *edit_make(int operation, char *old_line, char *new_line);
 
 /* Returns either old_line or new_line */
-char *edit_text(edit *e, block *block1, block *block2);
+char *edit_text(edit *e);
 
 /* Prints each individual edit */
 void edit_print(edit *e);

@@ -1,4 +1,5 @@
 #include "myers.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -11,41 +12,52 @@ myers *myers_make(block *block1, block *block2) {
 }
 
 void myers_do(myers *m) {
-  int **moveset;
+  int **moveset; // Moveset
+  edit **edits;  // Edit collection
 
+  /* Generate the moveset for the blocks */
   moveset = myers_make_moveset(m);
 
-  /* Initialize our edit collection */
-  m->edits = malloc(sizeof(edit) * m->shortest_length);
+  /* Backtrack to look for best path */
+  edits = myers_backtrack(m, moveset);
+}
+
+void myers_clone_path(int **moveset, int *path, int size, int length) {
+  int *cloned_path = malloc(sizeof(int) * size);
+  moveset[length] = cloned_path;
+
+  for (size_t i = 0; i < size; i++) {
+    cloned_path[i] = path[i];
+  }
 }
 
 int **myers_make_moveset(myers *m) {
-  int **moveset, *moves;
+  int **moveset, *path;
   size_t max_tries =
       m->block1->lines + m->block2->lines; // Maximum possible # of moves
-  size_t max_index = 2 * max_tries + 1, moves_length, prev, next;
+  size_t max_index = 2 * max_tries + 1, moves_length = 0, prev, next;
   int x, y;
 
-  moves = malloc(sizeof(moves) * (max_index));
-  moveset = malloc(sizeof(moveset) * sizeof(moves) * max_tries);
+  path = malloc(sizeof(int) * (max_index));
+  moveset = malloc(sizeof(path) * max_tries);
 
   /* Initialize all values to -1 except first index */
   for (size_t i = 0; i < max_index; i++) {
-    moves[i] = i != 1 ? -1 : 0;
+    path[i] = i != 1 ? -1 : 0;
   }
 
   for (int d = 0; d < max_tries; d++) { // Path
-    moveset[moves_length++] = moves;
+    myers_clone_path(moveset, path, max_index, moves_length++);
 
     for (int k = -d; k < d + 1; k += 2) { // Move
       prev = k - 1 >= 0 ? k - 1 : max_index + k - 1;
       next = k + 1 >= 0 ? k + 1 : max_index + k + 1;
 
       /* Determine to move upwards or downwards */
-      if (k == -d || (k != d && moves[prev] < moves[next])) {
-        x = moves[next];
+      if (k == -d || (k != d && path[prev] < path[next])) {
+        x = path[next];
       } else {
-        x = moves[prev] + 1;
+        x = path[prev] + 1;
       }
 
       y = x - k;
@@ -57,10 +69,11 @@ int **myers_make_moveset(myers *m) {
         ++y;
       }
 
-      moves[k >= 0 ? k : max_index + k] = (int)x;
+      path[k >= 0 ? k : max_index + k] = x;
 
       if (x >= m->block1->lines && y >= m->block2->lines) {
         m->shortest_length = d;
+        free(path);
 
         return moveset;
       }
@@ -70,6 +83,60 @@ int **myers_make_moveset(myers *m) {
   return NULL;
 }
 
-void myers_backtrack(myers *m, int **moveset) {}
+edit *myers_handle_op(myers *m, int prev_x, int prev_y, int x, int y) {
+  edit *e;
+
+  if (x == prev_x) {
+    e = edit_make(OPERATION_INSERT, NULL, m->block2->text[prev_y]);
+  } else if (y == prev_y) {
+    e = edit_make(OPERATION_DELETE, m->block1->text[prev_x], NULL);
+  } else {
+    e = edit_make(OPERATION_DELETE, m->block1->text[prev_x],
+                  m->block2->text[prev_y]);
+  }
+
+  return e;
+}
+
+edit **myers_backtrack(myers *m, int **moveset) {
+  int x, y, k, prev_k, prev_x, prev_y;
+  edit **edits; // Collection of edits
+
+  x = m->block1->lines;
+  y = m->block2->lines;
+
+  edits = malloc(sizeof(edit) * m->shortest_length);
+
+  for (int d = m->shortest_length; d > -1; d--) {
+    k = x - y; // from y = x - k
+
+    if (k == -d || (k != d && moveset[d][k - 1] < moveset[d][k + 1])) {
+      prev_k = k + 1;
+    } else {
+      prev_k = k - 1;
+    }
+
+    prev_x = moveset[d][prev_k];
+    prev_y = prev_x - prev_k;
+
+    while (x > prev_x && y > prev_y) {
+      edit *e = myers_handle_op(m, x - 1, y - 1, x, y);
+      *edits++ = e;
+
+      --x;
+      --y;
+    }
+
+    if (d > 0) {
+      edit *e = myers_handle_op(m, prev_x, prev_y, x, y);
+      *edits++ = e;
+    }
+
+    x = prev_x;
+    y = prev_y;
+  }
+
+  return edits;
+}
 
 void myers_print(myers *m, edit *edits) {}

@@ -9,6 +9,7 @@ void test_shortest_path_length(void) {
   char *a[5];
   char *b[4];
   int shortest_path_size;
+  int **moveset;
 
   a[0] = "It is important to spell";
   a[1] = "check this dokument. On";
@@ -25,9 +26,12 @@ void test_shortest_path_length(void) {
   block *bb = make_block(b, 4);
 
   myers *m = myers_make(ab, bb);
-  myers_make_moveset(m);
+  moveset = myers_make_moveset(m);
 
   // printf("shortest length:%d", m->shortest_length);
 
   assert(m->shortest_length == 3);
+  assert(moveset[3][0] == 4);
+
+  myers_backtrack(m, moveset);
 }
