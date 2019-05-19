@@ -9,6 +9,7 @@ struct myers {
   block *block1;       // First collection of lines
   block *block2;       // Second collection of lines
   int shortest_length; // Shortest possible # of moves
+  int num_edits;       // # of edits made in final path
 };
 
 /* Returns a newly allocated myers object */

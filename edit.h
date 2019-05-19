@@ -11,13 +11,14 @@
 typedef struct edit edit;
 struct edit {
   int operation;          // 0 - Delete, 1 - Insert, 2 - Equals
-  char *old_line;         // Line associated with first block
-  char *new_line;         // Line associated with second block
+  block *old_block;       // First block
+  block *new_block;       // Second block
+  int line;               // Line associated with the blocks
   char *(*text)(edit *e); // text associated with the edit
 };
 
 /* returns a newly allocated edit object */
-edit *edit_make(int operation, char *old_line, char *new_line);
+edit *edit_make(int operation, block *old_block, block *new_block, int line);
 
 /* Returns either old_line or new_line */
 char *edit_text(edit *e);

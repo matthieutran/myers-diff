@@ -87,12 +87,11 @@ edit *myers_handle_op(myers *m, int prev_x, int prev_y, int x, int y) {
   edit *e;
 
   if (x == prev_x) {
-    e = edit_make(OPERATION_INSERT, NULL, m->block2->text[prev_y]);
+    e = edit_make(OPERATION_INSERT, NULL, m->block2, prev_y);
   } else if (y == prev_y) {
-    e = edit_make(OPERATION_DELETE, m->block1->text[prev_x], NULL);
+    e = edit_make(OPERATION_DELETE, m->block1, NULL, prev_x);
   } else {
-    e = edit_make(OPERATION_DELETE, m->block1->text[prev_x],
-                  m->block2->text[prev_y]);
+    e = edit_make(OPERATION_DELETE, m->block1, m->block2, prev_x);
   }
 
   return e;
@@ -101,6 +100,7 @@ edit *myers_handle_op(myers *m, int prev_x, int prev_y, int x, int y) {
 edit **myers_backtrack(myers *m, int **moveset) {
   int x, y, k, prev_k, prev_x, prev_y;
   edit **edits; // Collection of edits
+  int num_edits;
 
   x = m->block1->lines;
   y = m->block2->lines;
@@ -110,31 +110,38 @@ edit **myers_backtrack(myers *m, int **moveset) {
   for (int d = m->shortest_length; d > -1; d--) {
     k = x - y; // from y = x - k
 
+    /* Determine what the previous k was */
     if (k == -d || (k != d && moveset[d][k - 1] < moveset[d][k + 1])) {
       prev_k = k + 1;
     } else {
       prev_k = k - 1;
     }
 
+    /* Calculate previous y */
     prev_x = moveset[d][prev_k];
     prev_y = prev_x - prev_k;
 
+    /* Check for diagonals */
     while (x > prev_x && y > prev_y) {
       edit *e = myers_handle_op(m, x - 1, y - 1, x, y);
-      *edits++ = e;
+      edits[num_edits++] = e;
 
       --x;
       --y;
     }
 
-    if (d > 0) {
+    /* Go to position before diagonals */
+    if (d > 0) { // no previous pos to move back to, skip
       edit *e = myers_handle_op(m, prev_x, prev_y, x, y);
-      *edits++ = e;
+      edits[num_edits++] = e;
     }
 
+    /* set x and y to values in prev round and continue */
     x = prev_x;
     y = prev_y;
   }
+
+  m->num_edits = num_edits; // store edits to reverse later
 
   return edits;
 }
