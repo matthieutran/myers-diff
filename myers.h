@@ -40,6 +40,6 @@ edit **myers_backtrack(myers *m, int **moveset);
 edit *myers_gen_edits(myers *m);
 
 /* Prints the end diff result */
-void myers_print(myers *m, edit *edits);
+void myers_print(myers *m, edit **edits);
 
 #endif

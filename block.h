@@ -10,6 +10,6 @@ struct block {
 };
 
 /* returns a newly allocated block object */
-block *make_block(char **text, size_t lines);
+block *block_make(char **text, size_t lines);
 
 #endif
