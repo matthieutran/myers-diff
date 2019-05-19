@@ -15,6 +15,9 @@ struct myers {
 /* Returns a newly allocated myers object */
 myers *myers_make(block *block1, block *block2);
 
+/* Perform the myer's algorithm on the block of lines */
+void myers_do(myers *m);
+
 /* Clones the current path onto the moveset */
 void myers_clone_path(int **moveset, int *path, int size, int length);
 

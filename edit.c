@@ -7,8 +7,7 @@ char *edit_text(edit *e) {
                       : e->new_block->text[e->line];
 }
 
-edit *edit_make(int operation, block *old_block, block *new_block, int line,
-                int new_line) {
+edit *edit_make(int operation, block *old_block, block *new_block, int line) {
   edit *e = malloc(sizeof(edit));
   e->operation = operation;
   e->old_block = old_block;

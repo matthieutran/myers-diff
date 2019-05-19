@@ -33,5 +33,5 @@ void test_shortest_path_length(void) {
   assert(m->shortest_length == 3);
   assert(moveset[3][0] == 4);
 
-  myers_backtrack(m, moveset);
+  myers_do(m);
 }

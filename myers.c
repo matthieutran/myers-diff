@@ -7,6 +7,7 @@ myers *myers_make(block *block1, block *block2) {
   myers *m = malloc(sizeof(myers));
   m->block1 = block1;
   m->block2 = block2;
+  m->num_edits = 0;
 
   return m;
 }
@@ -20,6 +21,20 @@ void myers_do(myers *m) {
 
   /* Backtrack to look for best path */
   edits = myers_backtrack(m, moveset);
+
+  for (int i = --m->num_edits; i > -1; i--) {
+    // printf("%d", edits[i]->operation);
+    char sign;
+    if (edits[i]->operation == OPERATION_INSERT) {
+      sign = '+';
+    } else if (edits[i]->operation == OPERATION_DELETE) {
+      sign = '-';
+    } else {
+      sign = '=';
+    }
+
+    printf("%c %d %s\n", sign, edits[i]->line + 1, edits[i]->text(edits[i]));
+  }
 }
 
 void myers_clone_path(int **moveset, int *path, int size, int length) {
@@ -91,7 +106,7 @@ edit *myers_handle_op(myers *m, int prev_x, int prev_y, int x, int y) {
   } else if (y == prev_y) {
     e = edit_make(OPERATION_DELETE, m->block1, NULL, prev_x);
   } else {
-    e = edit_make(OPERATION_DELETE, m->block1, m->block2, prev_x);
+    e = edit_make(OPERATION_EQUALS, m->block1, m->block2, prev_x);
   }
 
   return e;
@@ -100,7 +115,6 @@ edit *myers_handle_op(myers *m, int prev_x, int prev_y, int x, int y) {
 edit **myers_backtrack(myers *m, int **moveset) {
   int x, y, k, prev_k, prev_x, prev_y;
   edit **edits; // Collection of edits
-  int num_edits;
 
   x = m->block1->lines;
   y = m->block2->lines;
@@ -124,7 +138,7 @@ edit **myers_backtrack(myers *m, int **moveset) {
     /* Check for diagonals */
     while (x > prev_x && y > prev_y) {
       edit *e = myers_handle_op(m, x - 1, y - 1, x, y);
-      edits[num_edits++] = e;
+      edits[m->num_edits++] = e;
 
       --x;
       --y;
@@ -133,15 +147,13 @@ edit **myers_backtrack(myers *m, int **moveset) {
     /* Go to position before diagonals */
     if (d > 0) { // no previous pos to move back to, skip
       edit *e = myers_handle_op(m, prev_x, prev_y, x, y);
-      edits[num_edits++] = e;
+      edits[m->num_edits++] = e;
     }
 
     /* set x and y to values in prev round and continue */
     x = prev_x;
     y = prev_y;
   }
-
-  m->num_edits = num_edits; // store edits to reverse later
 
   return edits;
 }
