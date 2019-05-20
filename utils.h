@@ -18,4 +18,7 @@ char *rstrip(char *s);
 /* Shows a separator */
 void printline(void);
 
+/* Case insensitive string comparison */
+int stricmp(const char *s1, const char *s2);
+
 #endif

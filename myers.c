@@ -1,4 +1,6 @@
 #include "myers.h"
+#include "options.h"
+#include "utils.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -83,9 +85,16 @@ int **myers_make_moveset(myers *m) {
 
       y = x - k;
 
+      int (*cmpfnc)(const char *, const char *);
+      if (ignorecase) {
+        cmpfnc = stricmp;
+      } else {
+        cmpfnc = strcmp;
+      }
+
       /* Check for diagonals and move accordingly */
       while (x < m->block1->line_count && y < m->block2->line_count &&
-             strcmp(m->block1->lines[x]->content,
+             cmpfnc(m->block1->lines[x]->content,
                     m->block2->lines[y]->content) == 0) {
         ++x;
         ++y;
