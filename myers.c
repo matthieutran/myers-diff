@@ -132,10 +132,9 @@ edit **myers_backtrack(myers *m, int **moveset) {
 
   for (int d = m->shortest_length; d > -1; d--) {
     k = x - y; // from y = x - k
-
-    if (k < 0) {
-      k_index = max_index + k;
-    }
+    k_index = k < 0 ? max_index + k : k;
+    k_index = k;
+    // printf("%d, %d -> %d", x, y, k_index);
 
     /* Determine what the previous k was */
     if (k == -d ||
@@ -165,6 +164,7 @@ edit **myers_backtrack(myers *m, int **moveset) {
       edits[m->num_edits++] = e;
     }
     // printf("(%d, %d) => ", x, y);
+
     /* set x and y to values in prev round and continue */
     x = prev_x;
     y = prev_y;
