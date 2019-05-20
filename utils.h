@@ -9,9 +9,6 @@
 /* Open file and return its object */
 FILE *process_file(char *filename);
 
-/* Fill in block with file contents */
-int block_from_file(char **block, char *filename);
-
 /* Returns the result of stripping white spaces from the end of s (if any)
  * By Dr. William McCarthy
  * string_appendix_b3.c

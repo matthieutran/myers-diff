@@ -1,25 +1,27 @@
 #include "tests.h"
 #include "block.h"
+#include "line.h"
 #include "myers.h"
 #include <assert.h>
+#include <stdlib.h>
 
 void run_tests() { test_shortest_path_length(); }
 
 void test_shortest_path_length(void) {
-  char *a[5];
-  char *b[4];
+  line **a = malloc(sizeof(line) * 5);
+  line **b = malloc(sizeof(line) * 4);
   int **moveset;
 
-  a[0] = "It is important to spell";
-  a[1] = "check this dokument. On";
-  a[2] = "the other hand, a";
-  a[3] = "misspelled word isn't";
-  a[4] = "the end of the world.";
+  a[0] = line_make("It is important to spell", 1);
+  a[1] = line_make("check this dokument. On", 2);
+  a[2] = line_make("the other hand, a", 3);
+  a[3] = line_make("misspelled word isn't", 4);
+  a[4] = line_make("the end of the world.", 5);
 
-  b[0] = "It is important to spell";
-  b[1] = "check this document. On";
-  b[2] = "the other hand, a";
-  b[3] = "misspelled word isn't";
+  b[0] = line_make("It is important to spell", 1);
+  b[1] = line_make("check this document. On", 2);
+  b[2] = line_make("the other hand, a", 3);
+  b[3] = line_make("misspelled word isn't", 4);
 
   block *ab = block_make(a, 5);
   block *bb = block_make(b, 4);

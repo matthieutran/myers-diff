@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-char buf[BUF_SIZE];
-
 FILE *process_file(char *filename) {
   FILE *file;
 
@@ -15,20 +13,6 @@ FILE *process_file(char *filename) {
   }
 
   return file;
-}
-
-int block_from_file(char **block, char *filename) {
-  int lines = 0;
-
-  FILE *file = process_file(filename);
-
-  while (!feof(file) && fgets(buf, BUF_SIZE, file) != NULL) {
-    block[lines++] = strdup(buf);
-  }
-
-  fclose(file);
-
-  return lines;
 }
 
 char *rstrip(char *s) {

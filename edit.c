@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 char *edit_text(edit *e) {
-  return e->old_block != NULL ? e->old_block->text[e->old_line]
-                              : e->new_block->text[e->new_line];
+  return e->old_block != NULL ? e->old_block->lines[e->old_line]->content
+                              : e->new_block->lines[e->new_line]->content;
 }
 
 edit *edit_make(int operation, block *old_block, block *new_block, int old_line,

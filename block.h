@@ -1,15 +1,19 @@
 #ifndef block_h
 #define block_h
 
+#include "line.h"
 #include <stdlib.h>
 
 typedef struct block block;
 struct block {
-  char **text;  // block content
-  size_t lines; // # of lines in the block
+  line **lines;      // block content
+  size_t line_count; // # of lines in the block
 };
 
-/* returns a newly allocated block object */
-block *block_make(char **text, size_t lines);
+/* returns a newly allocated block struct */
+block *block_make(line **lines, size_t line_count);
+
+/* Create block with file contents */
+block *block_from_file(char *filename);
 
 #endif

@@ -16,8 +16,13 @@ void myers_do(myers *m) {
   int **moveset; // Moveset
   edit **edits;  // Edit collection
 
+  printf("MAKING MOVESET\n");
+
   /* Generate the moveset for the blocks */
   moveset = myers_make_moveset(m);
+
+  size_t max_tries = m->block1->line_count + m->block2->line_count;
+  int max_index = 2 * max_tries + 1;
 
   printf("BACKTRACKING NOW\n");
 
@@ -41,8 +46,8 @@ void myers_clone_path(int **moveset, int *path, int size, int length) {
 
 int **myers_make_moveset(myers *m) {
   int **moveset, *path;
-  size_t max_tries =
-      m->block1->lines + m->block2->lines; // Maximum possible # of moves
+  size_t max_tries = m->block1->line_count +
+                     m->block2->line_count; // Maximum possible # of moves
   size_t max_index = 2 * max_tries + 1, moves_length = 0, prev, next;
   int x, y;
   int left = 0;
@@ -82,8 +87,9 @@ int **myers_make_moveset(myers *m) {
       y = x - k;
 
       /* Check for diagonals and move accordingly */
-      while (x < m->block1->lines && y < m->block2->lines &&
-             strcmp(m->block1->text[x], m->block2->text[y]) == 0) {
+      while (x < m->block1->line_count && y < m->block2->line_count &&
+             strcmp(m->block1->lines[x]->content,
+                    m->block2->lines[y]->content) == 0) {
         ++x;
         ++y;
       }
@@ -95,7 +101,7 @@ int **myers_make_moveset(myers *m) {
       //   printf("%s\n", m->block2->text[k >= 0 ? k : max_index + k]);
       // }
 
-      if (x >= m->block1->lines && y >= m->block2->lines) {
+      if (x >= m->block1->line_count && y >= m->block2->line_count) {
         m->shortest_length = d;
         free(path);
 
@@ -109,26 +115,13 @@ int **myers_make_moveset(myers *m) {
 
 edit *myers_handle_op(myers *m, int prev_x, int prev_y, int x, int y) {
   edit *e;
-  // if (prev_x < 0) {
-  //   prev_x += 100;
-  // }
-  if (prev_y < 0) {
-    prev_y += 107;
-  }
-  if (y < 0) {
-    y += 107;
-  }
-  // printf("%d, %d, %d, %d\n", prev_x, prev_y, x, y);
 
   if (x == prev_x) {
     e = edit_make(OPERATION_INSERT, NULL, m->block2, -1, prev_y);
-    printf("new: %d\n", prev_y);
   } else if (y == prev_y) {
-    printf("old: %d\n", prev_x);
     e = edit_make(OPERATION_DELETE, m->block1, NULL, prev_x, -1);
   } else {
     e = edit_make(OPERATION_EQUALS, m->block1, m->block2, prev_x, prev_y);
-    // printf("old: %d AND new: %d\n", prev_x, prev_y);
   }
 
   return e;
@@ -138,21 +131,13 @@ edit **myers_backtrack(myers *m, int **moveset) {
   int x, y, k, prev_k, prev_x, prev_y;
   edit **edits; // Collection of edits
 
-  x = m->block1->lines;
-  y = m->block2->lines;
+  x = m->block1->line_count;
+  y = m->block2->line_count;
 
   edits = malloc(sizeof(edit) * m->shortest_length);
 
   for (int d = m->shortest_length; d > -1; d--) {
     k = x - y; // from y = x - k
-
-    if (k < 0) {
-      k = (m->block1->lines + m->block2->lines) * 2 + 1 + k;
-    }
-
-    if (k == ((m->block1->lines + m->block2->lines) * 2 + 1)) {
-      k = 0;
-    }
 
     /* Determine what the previous k was */
     if (k == -d || (k != d && moveset[d][k - 1] < moveset[d][k + 1])) {
