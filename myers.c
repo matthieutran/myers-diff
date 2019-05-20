@@ -16,20 +16,17 @@ void myers_do(myers *m) {
   int **moveset; // Moveset
   edit **edits;  // Edit collection
 
-  printf("MAKING MOVESET\n");
+  // printf("MAKING MOVESET\n");
 
   /* Generate the moveset for the blocks */
   moveset = myers_make_moveset(m);
 
-  size_t max_tries = m->block1->line_count + m->block2->line_count;
-  int max_index = 2 * max_tries + 1;
-
-  printf("BACKTRACKING NOW\n");
+  // printf("BACKTRACKING NOW\n");
 
   /* Backtrack to look for best path */
   edits = myers_backtrack(m, moveset);
 
-  printf("PRINTING RESULTS\n");
+  // printf("PRINTING RESULTS\n");
 
   /* Print results */
   myers_print(m, edits);
@@ -95,11 +92,6 @@ int **myers_make_moveset(myers *m) {
       }
 
       path[k >= 0 ? k : max_index + k] = x;
-      // if (left) {
-      //   printf("%s\n", m->block1->text[k >= 0 ? k : max_index + k]);
-      // } else {
-      //   printf("%s\n", m->block2->text[k >= 0 ? k : max_index + k]);
-      // }
 
       if (x >= m->block1->line_count && y >= m->block2->line_count) {
         m->shortest_length = d;
@@ -128,8 +120,10 @@ edit *myers_handle_op(myers *m, int prev_x, int prev_y, int x, int y) {
 }
 
 edit **myers_backtrack(myers *m, int **moveset) {
-  int x, y, k, prev_k, prev_x, prev_y;
+  int x, y, k, prev_k, prev_x, prev_y, prev, next;
   edit **edits; // Collection of edits
+  size_t max_tries = m->block1->line_count + m->block2->line_count;
+  int max_index = 2 * max_tries + 1, k_index;
 
   x = m->block1->line_count;
   y = m->block2->line_count;
@@ -139,15 +133,21 @@ edit **myers_backtrack(myers *m, int **moveset) {
   for (int d = m->shortest_length; d > -1; d--) {
     k = x - y; // from y = x - k
 
+    if (k < 0) {
+      k_index = max_index + k;
+    }
+
     /* Determine what the previous k was */
-    if (k == -d || (k != d && moveset[d][k - 1] < moveset[d][k + 1])) {
+    if (k == -d ||
+        (k != d && moveset[d][k_index - 1] < moveset[d][k_index + 1])) {
       prev_k = k + 1;
     } else {
       prev_k = k - 1;
     }
+    // printf("k=%d and prev_k=%d", k, prev_k);
 
     /* Calculate previous y */
-    prev_x = moveset[d][prev_k];
+    prev_x = moveset[d][prev_k < 0 ? max_index + prev_k : prev_k];
     prev_y = prev_x - prev_k;
 
     /* Check for diagonals */
@@ -164,11 +164,11 @@ edit **myers_backtrack(myers *m, int **moveset) {
       edit *e = myers_handle_op(m, prev_x, prev_y, x, y);
       edits[m->num_edits++] = e;
     }
-    printf("(%d, %d) => ", x, y);
+    // printf("(%d, %d) => ", x, y);
     /* set x and y to values in prev round and continue */
     x = prev_x;
     y = prev_y;
-    printf("(%d, %d)\n", prev_x, prev_y); // TODO: negative -> positive
+    // printf("(%d, %d)\n", prev_x, prev_y);
   }
 
   return edits;
