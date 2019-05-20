@@ -133,7 +133,7 @@ edit **myers_backtrack(myers *m, int **moveset) {
   for (int d = m->shortest_length; d > -1; d--) {
     k = x - y; // from y = x - k
     k_index = k < 0 ? max_index + k : k;
-    k_index = k;
+    // k_index = k;
     // printf("%d, %d -> %d", x, y, k_index);
 
     /* Determine what the previous k was */
