@@ -23,3 +23,10 @@ char *rstrip(char *s) {
 
   return s;
 }
+
+void printline(void) {
+  for (int i = 0; i < 10; ++i) {
+    printf("==========");
+  }
+  printf("\n");
+}

@@ -15,4 +15,7 @@ FILE *process_file(char *filename);
  */
 char *rstrip(char *s);
 
+/* Shows a separator */
+void printline(void);
+
 #endif
