@@ -4,6 +4,10 @@
 #include "block.h"
 #include "edit.h"
 
+#define LEFT_FILE 0
+#define RIGHT_FILE 1
+#define EQUAL_FILE 2
+
 typedef struct myers myers;
 struct myers {
   block *block1;       // First collection of lines

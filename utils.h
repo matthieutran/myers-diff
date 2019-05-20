@@ -21,4 +21,8 @@ void printline(void);
 /* Case insensitive string comparison */
 int stricmp(const char *s1, const char *s2);
 
+void printleft(const char *left);
+void printright(const char *right);
+void printboth(const char *left_right);
+
 #endif

@@ -28,6 +28,14 @@ int main(int argc, const char *argv[]) {
   /* Process myers algorithm */
   myers_do(m);
 
+  if (report_identical && filesequal) {
+    printf("Files %s and %s are identical\n", filenames[0], filenames[1]);
+  }
+
+  if (show_brief && !filesequal) {
+    printf("Files %s and %s differ.\n", filenames[0], filenames[1]);
+  }
+
   return 0;
 }
 
@@ -51,7 +59,7 @@ void handle_options(int argc, const char *argv[]) {
 
 int show_version = 0, show_brief = 0, ignorecase = 0, report_identical = 0,
     diffnormal = 0, show_sidebyside, show_leftcolumn = 0, suppress_common = 0,
-    show_context = 0, show_unified = 0, show_help = 0;
+    show_context = 0, show_unified = 0, show_help = 0, filesequal = 1;
 
 /* From Dr. William McCarthy init_options_files() */
 void set_options(int argc, const char *argv[]) {

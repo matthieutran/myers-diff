@@ -30,6 +30,10 @@ void myers_do(myers *m) {
 
   // printf("PRINTING RESULTS\n");
 
+  if (m->num_edits > 0) {
+    filesequal = 0;
+  }
+
   /* Print results */
   myers_print(m, edits);
 }
@@ -86,16 +90,12 @@ int **myers_make_moveset(myers *m) {
       y = x - k;
 
       int (*cmpfnc)(const char *, const char *);
-      if (ignorecase) {
-        cmpfnc = stricmp;
-      } else {
-        cmpfnc = strcmp;
-      }
-
+      cmpfnc = ignorecase ? stricmp : strcmp;
+      int comp = 0;
       /* Check for diagonals and move accordingly */
       while (x < m->block1->line_count && y < m->block2->line_count &&
-             cmpfnc(m->block1->lines[x]->content,
-                    m->block2->lines[y]->content) == 0) {
+             (comp = cmpfnc(m->block1->lines[x]->content,
+                            m->block2->lines[y]->content)) == 0) {
         ++x;
         ++y;
       }
@@ -172,30 +172,74 @@ edit **myers_backtrack(myers *m, int **moveset) {
       edit *e = myers_handle_op(m, prev_x, prev_y, x, y);
       edits[m->num_edits++] = e;
     }
-    // printf("(%d, %d) => ", x, y);
+
+    // printf("(%d, %d) => (%d, %d)\n", x, y, prev_x, prev_y);
 
     /* set x and y to values in prev round and continue */
     x = prev_x;
     y = prev_y;
-    // printf("(%d, %d)\n", prev_x, prev_y);
   }
 
   return edits;
 }
 
 void myers_print(myers *m, edit **edits) {
+  int prev = 4;
+  char sign;
+  if (show_unified) {
+    printf("*** %s\n--- %s\n\n", filenames[0], filenames[1]);
+  }
+
   for (int i = --m->num_edits; i > -1; i--) {
     // printf("%d", edits[i]->operation);
-    char sign;
-    if (edits[i]->operation == OPERATION_INSERT) {
-      sign = '+';
-    } else if (edits[i]->operation == OPERATION_DELETE) {
-      sign = '-';
-    } else {
-      sign = '=';
-    }
+    if (show_unified || show_context) {
+      if (edits[i]->operation == OPERATION_INSERT) {
+        if (prev != RIGHT_FILE) {
+          printf(
+              "------------------------------------------------------------\n");
+        }
+        sign = '+';
+        prev = RIGHT_FILE;
+      } else if (diffnormal && edits[i]->operation == OPERATION_DELETE) {
+        if (prev != LEFT_FILE) {
+          printf(
+              "************************************************************\n");
+        }
+        sign = '-';
+        prev = LEFT_FILE;
+      } else {
+        sign = '=';
+        prev = EQUAL_FILE;
+      }
 
-    printf("%c %d %d %s", sign, edits[i]->old_line + 1, edits[i]->new_line + 1,
-           edits[i]->text(edits[i]));
+      printf("%c %d %d %s", sign, edits[i]->old_line + 1,
+             edits[i]->new_line + 1, edits[i]->text(edits[i]));
+    } else {
+      if (edits[i]->operation == OPERATION_INSERT) {
+        if (diffnormal && prev != OPERATION_INSERT && !show_brief) {
+          printf("filler\n");
+        }
+        printright(edit_text(edits[i]));
+        // sign = '+';
+        prev = OPERATION_INSERT;
+      } else if (diffnormal && edits[i]->operation == OPERATION_DELETE) {
+        if (prev != OPERATION_DELETE && !show_brief) {
+          printf("filler\n");
+        }
+        printleft(edit_text(edits[i]));
+        // sign = '-';
+        prev = OPERATION_DELETE;
+      } else {
+        if ((show_sidebyside || show_unified) && !suppress_common) {
+          if (diffnormal && prev != OPERATION_EQUALS && !show_brief) {
+            printf("filler\n");
+          }
+
+          printboth(edit_text(edits[i]));
+          // sign = '=';
+          prev = OPERATION_EQUALS;
+        }
+      }
+    }
   }
 }

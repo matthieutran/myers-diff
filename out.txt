@@ -1,0 +1,5829 @@
+L0: This part of the
+L1: document has stayed the
+L2: sme from version to
+L3: version. It shouldn't
+L4: be shown if it doesn't
+L5: change. Otherwise, that
+L6: would not be helping to
+L7: compress the size of the
+L8: changes.
+L9: 
+L10: This paragraph contains
+L11: text that is outdated.
+L12: It will be deleted in the
+L13: near future.
+L14: 
+L15: It is important to spell
+L16: check this dokument. On
+L17: the other hand, a
+L18: misspelled word isn't
+L19: the end of the world.
+L20: Nothing in the rest of
+L21: this paragraph needs to
+L22: be changed. Things can
+L23: be added after it.
+L0: This is an important
+L1: notice! It should
+L2: therefore be located at
+L3: the beginning of this
+L4: document!
+L5: 
+L6: This part of the
+L7: document has stayed the
+L8: sme from version to
+L9: version. It shouldn't
+L10: be shown if it doesn't
+L11: change. Otherwise, that
+L12: would not be helping to
+L13: compress the size of the
+L14: changes.
+L15: 
+L16: It is important to spell
+L17: check this document. On
+L18: the other hand, a
+L19: misspelled word isn't
+L20: the end of the world.
+L21: Nothing in the rest of
+L22: this paragraph needs to
+L23: be changed. Things can
+L24: be added after it.
+L25: 
+L26: This pragraph contains
+L27: important new additions
+L28: to this document.
+Path 0
+Move 0
+k-1=106 and k+1=1
+true 0
+x=0, n=24, y=0, m=29
+Path 1
+Move -1
+k-1=105 and k+1=0
+true 0
+x=0, n=24, y=1, m=29
+Move 1
+k-1=0 and k+1=2
+false 0
+x=1, n=24, y=0, m=29
+Path 2
+Move -2
+k-1=104 and k+1=106
+true 0
+x=0, n=24, y=2, m=29
+Move 0
+k-1=106 and k+1=1
+true 1
+x=1, n=24, y=1, m=29
+Move 2
+k-1=1 and k+1=3
+false 1
+x=2, n=24, y=0, m=29
+Path 3
+Move -3
+k-1=103 and k+1=105
+true 0
+x=0, n=24, y=3, m=29
+Move -1
+k-1=105 and k+1=0
+true 1
+x=1, n=24, y=2, m=29
+Move 1
+k-1=0 and k+1=2
+true 2
+x=2, n=24, y=1, m=29
+Move 3
+k-1=2 and k+1=4
+false 2
+x=3, n=24, y=0, m=29
+Path 4
+Move -4
+k-1=102 and k+1=104
+true 0
+x=0, n=24, y=4, m=29
+Move -2
+k-1=104 and k+1=106
+true 1
+x=1, n=24, y=3, m=29
+Move 0
+k-1=106 and k+1=1
+true 2
+x=2, n=24, y=2, m=29
+Move 2
+k-1=1 and k+1=3
+true 3
+x=3, n=24, y=1, m=29
+Move 4
+k-1=3 and k+1=5
+false 3
+x=4, n=24, y=0, m=29
+Path 5
+Move -5
+k-1=101 and k+1=103
+true 0
+x=0, n=24, y=5, m=29
+Move -3
+k-1=103 and k+1=105
+true 1
+x=1, n=24, y=4, m=29
+Move -1
+k-1=105 and k+1=0
+true 2
+x=2, n=24, y=3, m=29
+Move 1
+k-1=0 and k+1=2
+true 3
+x=3, n=24, y=2, m=29
+Move 3
+k-1=2 and k+1=4
+true 4
+x=4, n=24, y=1, m=29
+Move 5
+k-1=4 and k+1=6
+false 4
+x=5, n=24, y=0, m=29
+Path 6
+Move -6
+k-1=100 and k+1=102
+true 0
+x=0, n=24, y=6, m=29
+Move -4
+k-1=102 and k+1=104
+true 1
+x=1, n=24, y=5, m=29
+Move -2
+k-1=104 and k+1=106
+true 2
+x=2, n=24, y=4, m=29
+Move 0
+k-1=106 and k+1=1
+true 3
+x=3, n=24, y=3, m=29
+Move 2
+k-1=1 and k+1=3
+true 4
+x=4, n=24, y=2, m=29
+Move 4
+k-1=3 and k+1=5
+true 5
+x=5, n=24, y=1, m=29
+Move 6
+k-1=5 and k+1=7
+false 5
+x=6, n=24, y=0, m=29
+Path 7
+Move -7
+k-1=99 and k+1=101
+true 0
+x=0, n=24, y=7, m=29
+Move -5
+k-1=101 and k+1=103
+true 1
+x=1, n=24, y=6, m=29
+Move -3
+k-1=103 and k+1=105
+true 2
+x=2, n=24, y=5, m=29
+Move -1
+k-1=105 and k+1=0
+true 3
+x=3, n=24, y=4, m=29
+Move 1
+k-1=0 and k+1=2
+true 4
+x=4, n=24, y=3, m=29
+Move 3
+k-1=2 and k+1=4
+true 5
+x=5, n=24, y=2, m=29
+Move 5
+k-1=4 and k+1=6
+true 6
+x=6, n=24, y=1, m=29
+Move 7
+k-1=6 and k+1=8
+false 6
+x=7, n=24, y=0, m=29
+Path 8
+Move -8
+k-1=98 and k+1=100
+true 0
+x=0, n=24, y=8, m=29
+Move -6
+k-1=100 and k+1=102
+true 1
+x=1, n=24, y=7, m=29
+Move -4
+k-1=102 and k+1=104
+true 2
+x=2, n=24, y=6, m=29
+Move -2
+k-1=104 and k+1=106
+true 3
+x=3, n=24, y=5, m=29
+Move 0
+k-1=106 and k+1=1
+true 4
+x=4, n=24, y=4, m=29
+Move 2
+k-1=1 and k+1=3
+true 5
+x=5, n=24, y=3, m=29
+Move 4
+k-1=3 and k+1=5
+true 6
+x=6, n=24, y=2, m=29
+Move 6
+k-1=5 and k+1=7
+true 7
+x=7, n=24, y=1, m=29
+Move 8
+k-1=7 and k+1=9
+false 7
+x=8, n=24, y=0, m=29
+Path 9
+Move -9
+k-1=97 and k+1=99
+true 0
+x=0, n=24, y=9, m=29
+Move -7
+k-1=99 and k+1=101
+true 1
+x=1, n=24, y=8, m=29
+Move -5
+k-1=101 and k+1=103
+true 2
+x=2, n=24, y=7, m=29
+Move -3
+k-1=103 and k+1=105
+true 3
+x=3, n=24, y=6, m=29
+Move -1
+k-1=105 and k+1=0
+true 4
+x=4, n=24, y=5, m=29
+Move 1
+k-1=0 and k+1=2
+true 5
+x=5, n=24, y=4, m=29
+Move 3
+k-1=2 and k+1=4
+true 6
+x=6, n=24, y=3, m=29
+Move 5
+k-1=4 and k+1=6
+true 7
+x=7, n=24, y=2, m=29
+Move 7
+k-1=6 and k+1=8
+true 8
+x=8, n=24, y=1, m=29
+Move 9
+k-1=8 and k+1=10
+false 8
+x=9, n=24, y=0, m=29
+Path 10
+Move -10
+k-1=96 and k+1=98
+true 0
+x=0, n=24, y=10, m=29
+Move -8
+k-1=98 and k+1=100
+true 1
+x=1, n=24, y=9, m=29
+Move -6
+k-1=100 and k+1=102
+true 2
+x=2, n=24, y=8, m=29
+Move -4
+k-1=102 and k+1=104
+true 3
+x=3, n=24, y=7, m=29
+Move -2
+k-1=104 and k+1=106
+true 4
+x=4, n=24, y=6, m=29
+Move 0
+k-1=106 and k+1=1
+true 5
+x=5, n=24, y=5, m=29
+Move 2
+k-1=1 and k+1=3
+true 6
+x=6, n=24, y=4, m=29
+Move 4
+k-1=3 and k+1=5
+true 7
+x=7, n=24, y=3, m=29
+Move 6
+k-1=5 and k+1=7
+true 8
+x=8, n=24, y=2, m=29
+Move 8
+k-1=7 and k+1=9
+true 9
+x=9, n=24, y=1, m=29
+Move 10
+k-1=9 and k+1=11
+false 9
+x=10, n=24, y=0, m=29
+Path 11
+Move -11
+k-1=95 and k+1=97
+true 0
+x=0, n=24, y=11, m=29
+Move -9
+k-1=97 and k+1=99
+true 1
+x=1, n=24, y=10, m=29
+Move -7
+k-1=99 and k+1=101
+true 2
+x=2, n=24, y=9, m=29
+Move -5
+k-1=101 and k+1=103
+true 3
+x=3, n=24, y=8, m=29
+Move -3
+k-1=103 and k+1=105
+true 4
+x=4, n=24, y=7, m=29
+Move -1
+k-1=105 and k+1=0
+true 5
+x=5, n=24, y=6, m=29
+Move 1
+k-1=0 and k+1=2
+true 6
+x=6, n=24, y=5, m=29
+Move 3
+k-1=2 and k+1=4
+true 7
+x=7, n=24, y=4, m=29
+Move 5
+k-1=4 and k+1=6
+true 8
+x=8, n=24, y=3, m=29
+Move 7
+k-1=6 and k+1=8
+true 9
+x=9, n=24, y=2, m=29
+Move 9
+k-1=8 and k+1=10
+true 10
+x=10, n=24, y=1, m=29
+Move 11
+k-1=10 and k+1=12
+false 10
+x=11, n=24, y=0, m=29
+Path 12
+Move -12
+k-1=94 and k+1=96
+true 0
+x=0, n=24, y=12, m=29
+Move -10
+k-1=96 and k+1=98
+true 1
+x=1, n=24, y=11, m=29
+Move -8
+k-1=98 and k+1=100
+true 2
+x=2, n=24, y=10, m=29
+Move -6
+k-1=100 and k+1=102
+true 3
+x=3, n=24, y=9, m=29
+Move -4
+k-1=102 and k+1=104
+true 4
+x=4, n=24, y=8, m=29
+Move -2
+k-1=104 and k+1=106
+true 5
+x=5, n=24, y=7, m=29
+Move 0
+k-1=106 and k+1=1
+true 6
+x=6, n=24, y=6, m=29
+Move 2
+k-1=1 and k+1=3
+true 7
+x=7, n=24, y=5, m=29
+Move 4
+k-1=3 and k+1=5
+true 8
+x=8, n=24, y=4, m=29
+Move 6
+k-1=5 and k+1=7
+true 9
+x=9, n=24, y=3, m=29
+Move 8
+k-1=7 and k+1=9
+true 10
+x=10, n=24, y=2, m=29
+Move 10
+k-1=9 and k+1=11
+true 11
+x=11, n=24, y=1, m=29
+Move 12
+k-1=11 and k+1=13
+false 11
+x=12, n=24, y=0, m=29
+Path 13
+Move -13
+k-1=93 and k+1=95
+true 0
+x=0, n=24, y=13, m=29
+Move -11
+k-1=95 and k+1=97
+true 1
+x=1, n=24, y=12, m=29
+Move -9
+k-1=97 and k+1=99
+true 2
+x=2, n=24, y=11, m=29
+Move -7
+k-1=99 and k+1=101
+true 3
+x=3, n=24, y=10, m=29
+Move -5
+k-1=101 and k+1=103
+true 4
+x=4, n=24, y=9, m=29
+Move -3
+k-1=103 and k+1=105
+true 5
+x=5, n=24, y=8, m=29
+Move -1
+k-1=105 and k+1=0
+true 6
+x=6, n=24, y=7, m=29
+Move 1
+k-1=0 and k+1=2
+true 7
+x=7, n=24, y=6, m=29
+Move 3
+k-1=2 and k+1=4
+true 8
+x=8, n=24, y=5, m=29
+Move 5
+k-1=4 and k+1=6
+true 9
+x=9, n=24, y=4, m=29
+Move 7
+k-1=6 and k+1=8
+true 10
+x=10, n=24, y=3, m=29
+Move 9
+k-1=8 and k+1=10
+true 11
+x=11, n=24, y=2, m=29
+Move 11
+k-1=10 and k+1=12
+true 12
+x=12, n=24, y=1, m=29
+Move 13
+k-1=12 and k+1=14
+false 12
+x=13, n=24, y=0, m=29
+Path 14
+Move -14
+k-1=92 and k+1=94
+true 0
+x=0, n=24, y=14, m=29
+Move -12
+k-1=94 and k+1=96
+true 1
+x=1, n=24, y=13, m=29
+Move -10
+k-1=96 and k+1=98
+true 2
+x=2, n=24, y=12, m=29
+Move -8
+k-1=98 and k+1=100
+true 3
+x=3, n=24, y=11, m=29
+Move -6
+k-1=100 and k+1=102
+true 4
+x=4, n=24, y=10, m=29
+Move -4
+k-1=102 and k+1=104
+true 5
+x=5, n=24, y=9, m=29
+Move -2
+k-1=104 and k+1=106
+true 6
+x=6, n=24, y=8, m=29
+Move 0
+k-1=106 and k+1=1
+true 7
+x=7, n=24, y=7, m=29
+Move 2
+k-1=1 and k+1=3
+true 8
+x=8, n=24, y=6, m=29
+Move 4
+k-1=3 and k+1=5
+true 9
+x=9, n=24, y=5, m=29
+Move 6
+k-1=5 and k+1=7
+true 10
+x=10, n=24, y=4, m=29
+Move 8
+k-1=7 and k+1=9
+true 11
+x=11, n=24, y=3, m=29
+Move 10
+k-1=9 and k+1=11
+true 12
+x=12, n=24, y=2, m=29
+Move 12
+k-1=11 and k+1=13
+true 13
+x=13, n=24, y=1, m=29
+Move 14
+k-1=13 and k+1=15
+false 13
+x=14, n=24, y=0, m=29
+Path 15
+Move -15
+k-1=91 and k+1=93
+true 0
+x=0, n=24, y=15, m=29
+Move -13
+k-1=93 and k+1=95
+true 1
+x=1, n=24, y=14, m=29
+Move -11
+k-1=95 and k+1=97
+true 2
+x=2, n=24, y=13, m=29
+Move -9
+k-1=97 and k+1=99
+true 3
+x=3, n=24, y=12, m=29
+Move -7
+k-1=99 and k+1=101
+true 4
+x=4, n=24, y=11, m=29
+Move -5
+k-1=101 and k+1=103
+true 5
+x=5, n=24, y=10, m=29
+Move -3
+k-1=103 and k+1=105
+true 6
+x=6, n=24, y=9, m=29
+Move -1
+k-1=105 and k+1=0
+true 7
+x=7, n=24, y=8, m=29
+Move 1
+k-1=0 and k+1=2
+true 8
+x=8, n=24, y=7, m=29
+Move 3
+k-1=2 and k+1=4
+true 9
+x=9, n=24, y=6, m=29
+Move 5
+k-1=4 and k+1=6
+true 10
+x=10, n=24, y=5, m=29
+Move 7
+k-1=6 and k+1=8
+true 11
+x=11, n=24, y=4, m=29
+Move 9
+k-1=8 and k+1=10
+true 12
+x=12, n=24, y=3, m=29
+Move 11
+k-1=10 and k+1=12
+true 13
+x=13, n=24, y=2, m=29
+Move 13
+k-1=12 and k+1=14
+true 14
+x=14, n=24, y=1, m=29
+Move 15
+k-1=14 and k+1=16
+false 14
+x=15, n=24, y=0, m=29
+Path 16
+Move -16
+k-1=90 and k+1=92
+true 0
+x=0, n=24, y=16, m=29
+Move -14
+k-1=92 and k+1=94
+true 1
+x=1, n=24, y=15, m=29
+Move -12
+k-1=94 and k+1=96
+true 2
+x=2, n=24, y=14, m=29
+Move -10
+k-1=96 and k+1=98
+true 3
+x=3, n=24, y=13, m=29
+Move -8
+k-1=98 and k+1=100
+true 4
+x=4, n=24, y=12, m=29
+Move -6
+k-1=100 and k+1=102
+true 5
+x=5, n=24, y=11, m=29
+Move -4
+k-1=102 and k+1=104
+true 6
+x=6, n=24, y=10, m=29
+Move -2
+k-1=104 and k+1=106
+true 7
+x=7, n=24, y=9, m=29
+Move 0
+k-1=106 and k+1=1
+true 8
+x=8, n=24, y=8, m=29
+Move 2
+k-1=1 and k+1=3
+true 9
+x=9, n=24, y=7, m=29
+Move 4
+k-1=3 and k+1=5
+true 10
+x=10, n=24, y=6, m=29
+Move 6
+k-1=5 and k+1=7
+true 11
+x=11, n=24, y=5, m=29
+Move 8
+k-1=7 and k+1=9
+true 12
+x=12, n=24, y=4, m=29
+Move 10
+k-1=9 and k+1=11
+true 13
+x=13, n=24, y=3, m=29
+Move 12
+k-1=11 and k+1=13
+true 14
+x=14, n=24, y=2, m=29
+Move 14
+k-1=13 and k+1=15
+true 15
+x=15, n=24, y=1, m=29
+Move 16
+k-1=15 and k+1=17
+false 15
+x=16, n=24, y=0, m=29
+Path 17
+Move -17
+k-1=89 and k+1=91
+true 0
+x=0, n=24, y=17, m=29
+Move -15
+k-1=91 and k+1=93
+true 1
+x=1, n=24, y=16, m=29
+Move -13
+k-1=93 and k+1=95
+true 2
+x=2, n=24, y=15, m=29
+Move -11
+k-1=95 and k+1=97
+true 3
+x=3, n=24, y=14, m=29
+Move -9
+k-1=97 and k+1=99
+true 4
+x=4, n=24, y=13, m=29
+Move -7
+k-1=99 and k+1=101
+true 5
+x=5, n=24, y=12, m=29
+Move -5
+k-1=101 and k+1=103
+true 6
+x=6, n=24, y=11, m=29
+Move -3
+k-1=103 and k+1=105
+true 7
+x=7, n=24, y=10, m=29
+Move -1
+k-1=105 and k+1=0
+true 8
+x=8, n=24, y=9, m=29
+Move 1
+k-1=0 and k+1=2
+true 9
+x=9, n=24, y=8, m=29
+Move 3
+k-1=2 and k+1=4
+true 10
+x=10, n=24, y=7, m=29
+Move 5
+k-1=4 and k+1=6
+true 11
+x=11, n=24, y=6, m=29
+Move 7
+k-1=6 and k+1=8
+true 12
+x=12, n=24, y=5, m=29
+Move 9
+k-1=8 and k+1=10
+true 13
+x=13, n=24, y=4, m=29
+Move 11
+k-1=10 and k+1=12
+true 14
+x=14, n=24, y=3, m=29
+Move 13
+k-1=12 and k+1=14
+true 15
+x=15, n=24, y=2, m=29
+Move 15
+k-1=14 and k+1=16
+true 16
+x=16, n=24, y=1, m=29
+Move 17
+k-1=16 and k+1=18
+false 16
+x=17, n=24, y=0, m=29
+Path 18
+Move -18
+k-1=88 and k+1=90
+true 0
+x=0, n=24, y=18, m=29
+Move -16
+k-1=90 and k+1=92
+true 1
+x=1, n=24, y=17, m=29
+Move -14
+k-1=92 and k+1=94
+true 2
+x=2, n=24, y=16, m=29
+Move -12
+k-1=94 and k+1=96
+true 3
+x=3, n=24, y=15, m=29
+Move -10
+k-1=96 and k+1=98
+true 4
+x=4, n=24, y=14, m=29
+Move -8
+k-1=98 and k+1=100
+true 5
+x=5, n=24, y=13, m=29
+Move -6
+k-1=100 and k+1=102
+true 6
+x=6, n=24, y=12, m=29
+Move -4
+k-1=102 and k+1=104
+true 7
+x=7, n=24, y=11, m=29
+Move -2
+k-1=104 and k+1=106
+true 8
+x=8, n=24, y=10, m=29
+Move 0
+k-1=106 and k+1=1
+true 9
+x=9, n=24, y=9, m=29
+Move 2
+k-1=1 and k+1=3
+true 10
+x=10, n=24, y=8, m=29
+Move 4
+k-1=3 and k+1=5
+true 11
+x=11, n=24, y=7, m=29
+Move 6
+k-1=5 and k+1=7
+true 12
+x=12, n=24, y=6, m=29
+Move 8
+k-1=7 and k+1=9
+true 13
+x=13, n=24, y=5, m=29
+Move 10
+k-1=9 and k+1=11
+true 14
+x=14, n=24, y=4, m=29
+Move 12
+k-1=11 and k+1=13
+true 15
+x=15, n=24, y=3, m=29
+Move 14
+k-1=13 and k+1=15
+true 16
+x=16, n=24, y=2, m=29
+Move 16
+k-1=15 and k+1=17
+true 17
+x=17, n=24, y=1, m=29
+Move 18
+k-1=17 and k+1=19
+false 17
+x=18, n=24, y=0, m=29
+Path 19
+Move -19
+k-1=87 and k+1=89
+true 0
+x=0, n=24, y=19, m=29
+Move -17
+k-1=89 and k+1=91
+true 1
+x=1, n=24, y=18, m=29
+Move -15
+k-1=91 and k+1=93
+true 2
+x=2, n=24, y=17, m=29
+Move -13
+k-1=93 and k+1=95
+true 3
+x=3, n=24, y=16, m=29
+Move -11
+k-1=95 and k+1=97
+true 4
+x=4, n=24, y=15, m=29
+Move -9
+k-1=97 and k+1=99
+true 5
+x=5, n=24, y=14, m=29
+Move -7
+k-1=99 and k+1=101
+true 6
+x=6, n=24, y=13, m=29
+Move -5
+k-1=101 and k+1=103
+true 7
+x=7, n=24, y=12, m=29
+Move -3
+k-1=103 and k+1=105
+true 8
+x=8, n=24, y=11, m=29
+Move -1
+k-1=105 and k+1=0
+true 9
+x=9, n=24, y=10, m=29
+Move 1
+k-1=0 and k+1=2
+true 10
+x=10, n=24, y=9, m=29
+Move 3
+k-1=2 and k+1=4
+true 11
+x=11, n=24, y=8, m=29
+Move 5
+k-1=4 and k+1=6
+true 12
+x=12, n=24, y=7, m=29
+Move 7
+k-1=6 and k+1=8
+true 13
+x=13, n=24, y=6, m=29
+Move 9
+k-1=8 and k+1=10
+true 14
+x=14, n=24, y=5, m=29
+Move 11
+k-1=10 and k+1=12
+true 15
+x=15, n=24, y=4, m=29
+Move 13
+k-1=12 and k+1=14
+true 16
+x=16, n=24, y=3, m=29
+Move 15
+k-1=14 and k+1=16
+true 17
+x=17, n=24, y=2, m=29
+Move 17
+k-1=16 and k+1=18
+true 18
+x=18, n=24, y=1, m=29
+Move 19
+k-1=18 and k+1=20
+false 18
+x=19, n=24, y=0, m=29
+Path 20
+Move -20
+k-1=86 and k+1=88
+true 0
+x=0, n=24, y=20, m=29
+Move -18
+k-1=88 and k+1=90
+true 1
+x=1, n=24, y=19, m=29
+Move -16
+k-1=90 and k+1=92
+true 2
+x=2, n=24, y=18, m=29
+Move -14
+k-1=92 and k+1=94
+true 3
+x=3, n=24, y=17, m=29
+Move -12
+k-1=94 and k+1=96
+true 4
+x=4, n=24, y=16, m=29
+Move -10
+k-1=96 and k+1=98
+true 5
+x=5, n=24, y=15, m=29
+Move -8
+k-1=98 and k+1=100
+true 6
+x=6, n=24, y=14, m=29
+Move -6
+k-1=100 and k+1=102
+true 7
+x=7, n=24, y=13, m=29
+Move -4
+k-1=102 and k+1=104
+true 8
+x=8, n=24, y=12, m=29
+Move -2
+k-1=104 and k+1=106
+true 9
+x=9, n=24, y=11, m=29
+Move 0
+k-1=106 and k+1=1
+true 10
+x=10, n=24, y=10, m=29
+Move 2
+k-1=1 and k+1=3
+true 11
+x=11, n=24, y=9, m=29
+Move 4
+k-1=3 and k+1=5
+true 12
+x=12, n=24, y=8, m=29
+Move 6
+k-1=5 and k+1=7
+true 13
+x=13, n=24, y=7, m=29
+Move 8
+k-1=7 and k+1=9
+true 14
+x=14, n=24, y=6, m=29
+Move 10
+k-1=9 and k+1=11
+true 15
+x=15, n=24, y=5, m=29
+Move 12
+k-1=11 and k+1=13
+true 16
+x=16, n=24, y=4, m=29
+Move 14
+k-1=13 and k+1=15
+true 17
+x=17, n=24, y=3, m=29
+Move 16
+k-1=15 and k+1=17
+true 18
+x=18, n=24, y=2, m=29
+Move 18
+k-1=17 and k+1=19
+true 19
+x=19, n=24, y=1, m=29
+Move 20
+k-1=19 and k+1=21
+false 19
+x=20, n=24, y=0, m=29
+Path 21
+Move -21
+k-1=85 and k+1=87
+true 0
+x=0, n=24, y=21, m=29
+Move -19
+k-1=87 and k+1=89
+true 1
+x=1, n=24, y=20, m=29
+Move -17
+k-1=89 and k+1=91
+true 2
+x=2, n=24, y=19, m=29
+Move -15
+k-1=91 and k+1=93
+true 3
+x=3, n=24, y=18, m=29
+Move -13
+k-1=93 and k+1=95
+true 4
+x=4, n=24, y=17, m=29
+Move -11
+k-1=95 and k+1=97
+true 5
+x=5, n=24, y=16, m=29
+Move -9
+k-1=97 and k+1=99
+true 6
+x=6, n=24, y=15, m=29
+Move -7
+k-1=99 and k+1=101
+true 7
+x=7, n=24, y=14, m=29
+Move -5
+k-1=101 and k+1=103
+true 8
+x=8, n=24, y=13, m=29
+Move -3
+k-1=103 and k+1=105
+true 9
+x=9, n=24, y=12, m=29
+Move -1
+k-1=105 and k+1=0
+true 10
+x=10, n=24, y=11, m=29
+Move 1
+k-1=0 and k+1=2
+true 11
+x=11, n=24, y=10, m=29
+Move 3
+k-1=2 and k+1=4
+true 12
+x=12, n=24, y=9, m=29
+Move 5
+k-1=4 and k+1=6
+true 13
+x=13, n=24, y=8, m=29
+Move 7
+k-1=6 and k+1=8
+true 14
+x=14, n=24, y=7, m=29
+Move 9
+k-1=8 and k+1=10
+true 15
+x=15, n=24, y=6, m=29
+Move 11
+k-1=10 and k+1=12
+true 16
+x=16, n=24, y=5, m=29
+Move 13
+k-1=12 and k+1=14
+true 17
+x=17, n=24, y=4, m=29
+Move 15
+k-1=14 and k+1=16
+true 18
+x=18, n=24, y=3, m=29
+Move 17
+k-1=16 and k+1=18
+true 19
+x=19, n=24, y=2, m=29
+Move 19
+k-1=18 and k+1=20
+true 20
+x=20, n=24, y=1, m=29
+Move 21
+k-1=20 and k+1=22
+false 20
+x=21, n=24, y=0, m=29
+Path 22
+Move -22
+k-1=84 and k+1=86
+true 0
+x=0, n=24, y=22, m=29
+Move -20
+k-1=86 and k+1=88
+true 1
+x=1, n=24, y=21, m=29
+Move -18
+k-1=88 and k+1=90
+true 2
+x=2, n=24, y=20, m=29
+Move -16
+k-1=90 and k+1=92
+true 3
+x=3, n=24, y=19, m=29
+Move -14
+k-1=92 and k+1=94
+true 4
+x=4, n=24, y=18, m=29
+Move -12
+k-1=94 and k+1=96
+true 5
+x=5, n=24, y=17, m=29
+Move -10
+k-1=96 and k+1=98
+true 6
+x=6, n=24, y=16, m=29
+Move -8
+k-1=98 and k+1=100
+true 7
+x=7, n=24, y=15, m=29
+Move -6
+k-1=100 and k+1=102
+true 8
+x=8, n=24, y=14, m=29
+Move -4
+k-1=102 and k+1=104
+true 9
+x=9, n=24, y=13, m=29
+Move -2
+k-1=104 and k+1=106
+true 10
+x=10, n=24, y=12, m=29
+Move 0
+k-1=106 and k+1=1
+true 11
+x=11, n=24, y=11, m=29
+Move 2
+k-1=1 and k+1=3
+true 12
+x=12, n=24, y=10, m=29
+Move 4
+k-1=3 and k+1=5
+true 13
+x=13, n=24, y=9, m=29
+Move 6
+k-1=5 and k+1=7
+true 14
+x=14, n=24, y=8, m=29
+Move 8
+k-1=7 and k+1=9
+true 15
+x=15, n=24, y=7, m=29
+Move 10
+k-1=9 and k+1=11
+true 16
+x=16, n=24, y=6, m=29
+Move 12
+k-1=11 and k+1=13
+true 17
+x=17, n=24, y=5, m=29
+Move 14
+k-1=13 and k+1=15
+true 18
+x=18, n=24, y=4, m=29
+Move 16
+k-1=15 and k+1=17
+true 19
+x=19, n=24, y=3, m=29
+Move 18
+k-1=17 and k+1=19
+true 20
+x=20, n=24, y=2, m=29
+Move 20
+k-1=19 and k+1=21
+true 21
+x=21, n=24, y=1, m=29
+Move 22
+k-1=21 and k+1=23
+false 21
+x=22, n=24, y=0, m=29
+Path 23
+Move -23
+k-1=83 and k+1=85
+true 0
+x=0, n=24, y=23, m=29
+Move -21
+k-1=85 and k+1=87
+true 1
+x=1, n=24, y=22, m=29
+Move -19
+k-1=87 and k+1=89
+true 2
+x=2, n=24, y=21, m=29
+Move -17
+k-1=89 and k+1=91
+true 3
+x=3, n=24, y=20, m=29
+Move -15
+k-1=91 and k+1=93
+true 4
+x=4, n=24, y=19, m=29
+Move -13
+k-1=93 and k+1=95
+true 5
+x=5, n=24, y=18, m=29
+Move -11
+k-1=95 and k+1=97
+true 6
+x=6, n=24, y=17, m=29
+Move -9
+k-1=97 and k+1=99
+true 7
+x=7, n=24, y=16, m=29
+Move -7
+k-1=99 and k+1=101
+true 8
+x=8, n=24, y=15, m=29
+Move -5
+k-1=101 and k+1=103
+true 9
+x=9, n=24, y=14, m=29
+Move -3
+k-1=103 and k+1=105
+true 10
+x=10, n=24, y=13, m=29
+Move -1
+k-1=105 and k+1=0
+true 11
+x=11, n=24, y=12, m=29
+Move 1
+k-1=0 and k+1=2
+true 12
+x=12, n=24, y=11, m=29
+Move 3
+k-1=2 and k+1=4
+true 13
+x=13, n=24, y=10, m=29
+Move 5
+k-1=4 and k+1=6
+true 14
+x=14, n=24, y=9, m=29
+Move 7
+k-1=6 and k+1=8
+true 15
+x=15, n=24, y=8, m=29
+Move 9
+k-1=8 and k+1=10
+true 16
+x=16, n=24, y=7, m=29
+Move 11
+k-1=10 and k+1=12
+true 17
+x=17, n=24, y=6, m=29
+Move 13
+k-1=12 and k+1=14
+true 18
+x=18, n=24, y=5, m=29
+Move 15
+k-1=14 and k+1=16
+true 19
+x=19, n=24, y=4, m=29
+Move 17
+k-1=16 and k+1=18
+true 20
+x=20, n=24, y=3, m=29
+Move 19
+k-1=18 and k+1=20
+true 21
+x=21, n=24, y=2, m=29
+Move 21
+k-1=20 and k+1=22
+true 22
+x=22, n=24, y=1, m=29
+Move 23
+k-1=22 and k+1=24
+false 22
+x=23, n=24, y=0, m=29
+Path 24
+Move -24
+k-1=82 and k+1=84
+true 0
+x=0, n=24, y=24, m=29
+Move -22
+k-1=84 and k+1=86
+true 1
+x=1, n=24, y=23, m=29
+Move -20
+k-1=86 and k+1=88
+true 2
+x=2, n=24, y=22, m=29
+Move -18
+k-1=88 and k+1=90
+true 3
+x=3, n=24, y=21, m=29
+Move -16
+k-1=90 and k+1=92
+true 4
+x=4, n=24, y=20, m=29
+Move -14
+k-1=92 and k+1=94
+true 5
+x=5, n=24, y=19, m=29
+Move -12
+k-1=94 and k+1=96
+true 6
+x=6, n=24, y=18, m=29
+Move -10
+k-1=96 and k+1=98
+true 7
+x=7, n=24, y=17, m=29
+Move -8
+k-1=98 and k+1=100
+true 8
+x=8, n=24, y=16, m=29
+Move -6
+k-1=100 and k+1=102
+true 9
+x=9, n=24, y=15, m=29
+Move -4
+k-1=102 and k+1=104
+true 10
+x=10, n=24, y=14, m=29
+Move -2
+k-1=104 and k+1=106
+true 11
+x=11, n=24, y=13, m=29
+Move 0
+k-1=106 and k+1=1
+true 12
+x=12, n=24, y=12, m=29
+Move 2
+k-1=1 and k+1=3
+true 13
+x=13, n=24, y=11, m=29
+Move 4
+k-1=3 and k+1=5
+true 14
+x=14, n=24, y=10, m=29
+Move 6
+k-1=5 and k+1=7
+true 15
+x=15, n=24, y=9, m=29
+Move 8
+k-1=7 and k+1=9
+true 16
+x=16, n=24, y=8, m=29
+Move 10
+k-1=9 and k+1=11
+true 17
+x=17, n=24, y=7, m=29
+Move 12
+k-1=11 and k+1=13
+true 18
+x=18, n=24, y=6, m=29
+Move 14
+k-1=13 and k+1=15
+true 19
+x=19, n=24, y=5, m=29
+Move 16
+k-1=15 and k+1=17
+true 20
+x=20, n=24, y=4, m=29
+Move 18
+k-1=17 and k+1=19
+true 21
+x=21, n=24, y=3, m=29
+Move 20
+k-1=19 and k+1=21
+true 22
+x=22, n=24, y=2, m=29
+Move 22
+k-1=21 and k+1=23
+true 23
+x=23, n=24, y=1, m=29
+Move 24
+k-1=23 and k+1=25
+false 23
+x=24, n=24, y=0, m=29
+Path 25
+Move -25
+k-1=81 and k+1=83
+true 0
+x=0, n=24, y=25, m=29
+Move -23
+k-1=83 and k+1=85
+true 1
+x=1, n=24, y=24, m=29
+Move -21
+k-1=85 and k+1=87
+true 2
+x=2, n=24, y=23, m=29
+Move -19
+k-1=87 and k+1=89
+true 3
+x=3, n=24, y=22, m=29
+Move -17
+k-1=89 and k+1=91
+true 4
+x=4, n=24, y=21, m=29
+Move -15
+k-1=91 and k+1=93
+true 5
+x=5, n=24, y=20, m=29
+Move -13
+k-1=93 and k+1=95
+true 6
+x=6, n=24, y=19, m=29
+Move -11
+k-1=95 and k+1=97
+true 7
+x=7, n=24, y=18, m=29
+Move -9
+k-1=97 and k+1=99
+true 8
+x=8, n=24, y=17, m=29
+Move -7
+k-1=99 and k+1=101
+true 9
+x=9, n=24, y=16, m=29
+Move -5
+k-1=101 and k+1=103
+true 10
+x=10, n=24, y=15, m=29
+Move -3
+k-1=103 and k+1=105
+true 11
+x=11, n=24, y=14, m=29
+Move -1
+k-1=105 and k+1=0
+true 12
+x=12, n=24, y=13, m=29
+Move 1
+k-1=0 and k+1=2
+true 13
+x=13, n=24, y=12, m=29
+Move 3
+k-1=2 and k+1=4
+true 14
+x=14, n=24, y=11, m=29
+Move 5
+k-1=4 and k+1=6
+true 15
+x=15, n=24, y=10, m=29
+Move 7
+k-1=6 and k+1=8
+true 16
+x=16, n=24, y=9, m=29
+Move 9
+k-1=8 and k+1=10
+true 17
+x=17, n=24, y=8, m=29
+Move 11
+k-1=10 and k+1=12
+true 18
+x=18, n=24, y=7, m=29
+Move 13
+k-1=12 and k+1=14
+true 19
+x=19, n=24, y=6, m=29
+Move 15
+k-1=14 and k+1=16
+true 20
+x=20, n=24, y=5, m=29
+Move 17
+k-1=16 and k+1=18
+true 21
+x=21, n=24, y=4, m=29
+Move 19
+k-1=18 and k+1=20
+true 22
+x=22, n=24, y=3, m=29
+Move 21
+k-1=20 and k+1=22
+true 23
+x=23, n=24, y=2, m=29
+Move 23
+k-1=22 and k+1=24
+true 24
+x=24, n=24, y=1, m=29
+Move 25
+k-1=24 and k+1=26
+false 24
+x=25, n=24, y=0, m=29
+Path 26
+Move -26
+k-1=80 and k+1=82
+true 0
+x=0, n=24, y=26, m=29
+Move -24
+k-1=82 and k+1=84
+true 1
+x=1, n=24, y=25, m=29
+Move -22
+k-1=84 and k+1=86
+true 2
+x=2, n=24, y=24, m=29
+Move -20
+k-1=86 and k+1=88
+true 3
+x=3, n=24, y=23, m=29
+Move -18
+k-1=88 and k+1=90
+true 4
+x=4, n=24, y=22, m=29
+Move -16
+k-1=90 and k+1=92
+true 5
+x=5, n=24, y=21, m=29
+Move -14
+k-1=92 and k+1=94
+true 6
+x=6, n=24, y=20, m=29
+Move -12
+k-1=94 and k+1=96
+true 7
+x=7, n=24, y=19, m=29
+Move -10
+k-1=96 and k+1=98
+true 8
+x=8, n=24, y=18, m=29
+Move -8
+k-1=98 and k+1=100
+true 9
+x=9, n=24, y=17, m=29
+Move -6
+k-1=100 and k+1=102
+true 10
+x=10, n=24, y=16, m=29
+Move -4
+k-1=102 and k+1=104
+true 11
+x=11, n=24, y=15, m=29
+Move -2
+k-1=104 and k+1=106
+true 12
+x=12, n=24, y=14, m=29
+Move 0
+k-1=106 and k+1=1
+true 13
+x=13, n=24, y=13, m=29
+Move 2
+k-1=1 and k+1=3
+true 14
+x=14, n=24, y=12, m=29
+Move 4
+k-1=3 and k+1=5
+true 15
+x=15, n=24, y=11, m=29
+Move 6
+k-1=5 and k+1=7
+true 16
+x=16, n=24, y=10, m=29
+Move 8
+k-1=7 and k+1=9
+true 17
+x=17, n=24, y=9, m=29
+Move 10
+k-1=9 and k+1=11
+true 18
+x=18, n=24, y=8, m=29
+Move 12
+k-1=11 and k+1=13
+true 19
+x=19, n=24, y=7, m=29
+Move 14
+k-1=13 and k+1=15
+true 20
+x=20, n=24, y=6, m=29
+Move 16
+k-1=15 and k+1=17
+true 21
+x=21, n=24, y=5, m=29
+Move 18
+k-1=17 and k+1=19
+true 22
+x=22, n=24, y=4, m=29
+Move 20
+k-1=19 and k+1=21
+true 23
+x=23, n=24, y=3, m=29
+Move 22
+k-1=21 and k+1=23
+true 24
+x=24, n=24, y=2, m=29
+Move 24
+k-1=23 and k+1=25
+true 25
+x=25, n=24, y=1, m=29
+Move 26
+k-1=25 and k+1=27
+false 25
+x=26, n=24, y=0, m=29
+Path 27
+Move -27
+k-1=79 and k+1=81
+true 0
+x=0, n=24, y=27, m=29
+Move -25
+k-1=81 and k+1=83
+true 1
+x=1, n=24, y=26, m=29
+Move -23
+k-1=83 and k+1=85
+true 2
+x=2, n=24, y=25, m=29
+Move -21
+k-1=85 and k+1=87
+true 3
+x=3, n=24, y=24, m=29
+Move -19
+k-1=87 and k+1=89
+true 4
+x=4, n=24, y=23, m=29
+Move -17
+k-1=89 and k+1=91
+true 5
+x=5, n=24, y=22, m=29
+Move -15
+k-1=91 and k+1=93
+true 6
+x=6, n=24, y=21, m=29
+Move -13
+k-1=93 and k+1=95
+true 7
+x=7, n=24, y=20, m=29
+Move -11
+k-1=95 and k+1=97
+true 8
+x=8, n=24, y=19, m=29
+Move -9
+k-1=97 and k+1=99
+true 9
+x=9, n=24, y=18, m=29
+Move -7
+k-1=99 and k+1=101
+true 10
+x=10, n=24, y=17, m=29
+Move -5
+k-1=101 and k+1=103
+true 11
+x=11, n=24, y=16, m=29
+Move -3
+k-1=103 and k+1=105
+true 12
+x=12, n=24, y=15, m=29
+Move -1
+k-1=105 and k+1=0
+true 13
+x=13, n=24, y=14, m=29
+Move 1
+k-1=0 and k+1=2
+true 14
+x=14, n=24, y=13, m=29
+Move 3
+k-1=2 and k+1=4
+true 15
+x=15, n=24, y=12, m=29
+Move 5
+k-1=4 and k+1=6
+true 16
+x=16, n=24, y=11, m=29
+Move 7
+k-1=6 and k+1=8
+true 17
+x=17, n=24, y=10, m=29
+Move 9
+k-1=8 and k+1=10
+true 18
+x=18, n=24, y=9, m=29
+Move 11
+k-1=10 and k+1=12
+true 19
+x=19, n=24, y=8, m=29
+Move 13
+k-1=12 and k+1=14
+true 20
+x=20, n=24, y=7, m=29
+Move 15
+k-1=14 and k+1=16
+true 21
+x=21, n=24, y=6, m=29
+Move 17
+k-1=16 and k+1=18
+true 22
+x=22, n=24, y=5, m=29
+Move 19
+k-1=18 and k+1=20
+true 23
+x=23, n=24, y=4, m=29
+Move 21
+k-1=20 and k+1=22
+true 24
+x=24, n=24, y=3, m=29
+Move 23
+k-1=22 and k+1=24
+true 25
+x=25, n=24, y=2, m=29
+Move 25
+k-1=24 and k+1=26
+true 26
+x=26, n=24, y=1, m=29
+Move 27
+k-1=26 and k+1=28
+false 26
+x=27, n=24, y=0, m=29
+Path 28
+Move -28
+k-1=78 and k+1=80
+true 0
+x=0, n=24, y=28, m=29
+Move -26
+k-1=80 and k+1=82
+true 1
+x=1, n=24, y=27, m=29
+Move -24
+k-1=82 and k+1=84
+true 2
+x=2, n=24, y=26, m=29
+Move -22
+k-1=84 and k+1=86
+true 3
+x=3, n=24, y=25, m=29
+Move -20
+k-1=86 and k+1=88
+true 4
+x=4, n=24, y=24, m=29
+Move -18
+k-1=88 and k+1=90
+true 5
+x=5, n=24, y=23, m=29
+Move -16
+k-1=90 and k+1=92
+true 6
+x=6, n=24, y=22, m=29
+Move -14
+k-1=92 and k+1=94
+true 7
+x=7, n=24, y=21, m=29
+Move -12
+k-1=94 and k+1=96
+true 8
+x=8, n=24, y=20, m=29
+Move -10
+k-1=96 and k+1=98
+true 9
+x=9, n=24, y=19, m=29
+Move -8
+k-1=98 and k+1=100
+true 10
+x=10, n=24, y=18, m=29
+Move -6
+k-1=100 and k+1=102
+true 11
+x=11, n=24, y=17, m=29
+Move -4
+k-1=102 and k+1=104
+true 12
+x=12, n=24, y=16, m=29
+Move -2
+k-1=104 and k+1=106
+true 13
+x=13, n=24, y=15, m=29
+Move 0
+k-1=106 and k+1=1
+true 14
+x=14, n=24, y=14, m=29
+Move 2
+k-1=1 and k+1=3
+true 15
+x=15, n=24, y=13, m=29
+Move 4
+k-1=3 and k+1=5
+true 16
+x=16, n=24, y=12, m=29
+Move 6
+k-1=5 and k+1=7
+true 17
+x=17, n=24, y=11, m=29
+Move 8
+k-1=7 and k+1=9
+true 18
+x=18, n=24, y=10, m=29
+Move 10
+k-1=9 and k+1=11
+true 19
+x=19, n=24, y=9, m=29
+Move 12
+k-1=11 and k+1=13
+true 20
+x=20, n=24, y=8, m=29
+Move 14
+k-1=13 and k+1=15
+true 21
+x=21, n=24, y=7, m=29
+Move 16
+k-1=15 and k+1=17
+true 22
+x=22, n=24, y=6, m=29
+Move 18
+k-1=17 and k+1=19
+true 23
+x=23, n=24, y=5, m=29
+Move 20
+k-1=19 and k+1=21
+true 24
+x=24, n=24, y=4, m=29
+Move 22
+k-1=21 and k+1=23
+true 25
+x=25, n=24, y=3, m=29
+Move 24
+k-1=23 and k+1=25
+true 26
+x=26, n=24, y=2, m=29
+Move 26
+k-1=25 and k+1=27
+true 27
+x=27, n=24, y=1, m=29
+Move 28
+k-1=27 and k+1=29
+false 27
+x=28, n=24, y=0, m=29
+Path 29
+Move -29
+k-1=77 and k+1=79
+true 0
+x=0, n=24, y=29, m=29
+Move -27
+k-1=79 and k+1=81
+true 1
+x=1, n=24, y=28, m=29
+Move -25
+k-1=81 and k+1=83
+true 2
+x=2, n=24, y=27, m=29
+Move -23
+k-1=83 and k+1=85
+true 3
+x=3, n=24, y=26, m=29
+Move -21
+k-1=85 and k+1=87
+true 4
+x=4, n=24, y=25, m=29
+Move -19
+k-1=87 and k+1=89
+true 5
+x=5, n=24, y=24, m=29
+Move -17
+k-1=89 and k+1=91
+true 6
+x=6, n=24, y=23, m=29
+Move -15
+k-1=91 and k+1=93
+true 7
+x=7, n=24, y=22, m=29
+Move -13
+k-1=93 and k+1=95
+true 8
+x=8, n=24, y=21, m=29
+Move -11
+k-1=95 and k+1=97
+true 9
+x=9, n=24, y=20, m=29
+Move -9
+k-1=97 and k+1=99
+true 10
+x=10, n=24, y=19, m=29
+Move -7
+k-1=99 and k+1=101
+true 11
+x=11, n=24, y=18, m=29
+Move -5
+k-1=101 and k+1=103
+true 12
+x=12, n=24, y=17, m=29
+Move -3
+k-1=103 and k+1=105
+true 13
+x=13, n=24, y=16, m=29
+Move -1
+k-1=105 and k+1=0
+true 14
+x=14, n=24, y=15, m=29
+Move 1
+k-1=0 and k+1=2
+true 15
+x=15, n=24, y=14, m=29
+Move 3
+k-1=2 and k+1=4
+true 16
+x=16, n=24, y=13, m=29
+Move 5
+k-1=4 and k+1=6
+true 17
+x=17, n=24, y=12, m=29
+Move 7
+k-1=6 and k+1=8
+true 18
+x=18, n=24, y=11, m=29
+Move 9
+k-1=8 and k+1=10
+true 19
+x=19, n=24, y=10, m=29
+Move 11
+k-1=10 and k+1=12
+true 20
+x=20, n=24, y=9, m=29
+Move 13
+k-1=12 and k+1=14
+true 21
+x=21, n=24, y=8, m=29
+Move 15
+k-1=14 and k+1=16
+true 22
+x=22, n=24, y=7, m=29
+Move 17
+k-1=16 and k+1=18
+true 23
+x=23, n=24, y=6, m=29
+Move 19
+k-1=18 and k+1=20
+true 24
+x=24, n=24, y=5, m=29
+Move 21
+k-1=20 and k+1=22
+true 25
+x=25, n=24, y=4, m=29
+Move 23
+k-1=22 and k+1=24
+true 26
+x=26, n=24, y=3, m=29
+Move 25
+k-1=24 and k+1=26
+true 27
+x=27, n=24, y=2, m=29
+Move 27
+k-1=26 and k+1=28
+true 28
+x=28, n=24, y=1, m=29
+Move 29
+k-1=28 and k+1=30
+false 28
+x=29, n=24, y=0, m=29
+Path 30
+Move -30
+k-1=76 and k+1=78
+true 0
+x=0, n=24, y=30, m=29
+Move -28
+k-1=78 and k+1=80
+true 1
+x=1, n=24, y=29, m=29
+Move -26
+k-1=80 and k+1=82
+true 2
+x=2, n=24, y=28, m=29
+Move -24
+k-1=82 and k+1=84
+true 3
+x=3, n=24, y=27, m=29
+Move -22
+k-1=84 and k+1=86
+true 4
+x=4, n=24, y=26, m=29
+Move -20
+k-1=86 and k+1=88
+true 5
+x=5, n=24, y=25, m=29
+Move -18
+k-1=88 and k+1=90
+true 6
+x=6, n=24, y=24, m=29
+Move -16
+k-1=90 and k+1=92
+true 7
+x=7, n=24, y=23, m=29
+Move -14
+k-1=92 and k+1=94
+true 8
+x=8, n=24, y=22, m=29
+Move -12
+k-1=94 and k+1=96
+true 9
+x=9, n=24, y=21, m=29
+Move -10
+k-1=96 and k+1=98
+true 10
+x=10, n=24, y=20, m=29
+Move -8
+k-1=98 and k+1=100
+true 11
+x=11, n=24, y=19, m=29
+Move -6
+k-1=100 and k+1=102
+true 12
+x=12, n=24, y=18, m=29
+Move -4
+k-1=102 and k+1=104
+true 13
+x=13, n=24, y=17, m=29
+Move -2
+k-1=104 and k+1=106
+true 14
+x=14, n=24, y=16, m=29
+Move 0
+k-1=106 and k+1=1
+true 15
+x=15, n=24, y=15, m=29
+Move 2
+k-1=1 and k+1=3
+true 16
+x=16, n=24, y=14, m=29
+Move 4
+k-1=3 and k+1=5
+true 17
+x=17, n=24, y=13, m=29
+Move 6
+k-1=5 and k+1=7
+true 18
+x=18, n=24, y=12, m=29
+Move 8
+k-1=7 and k+1=9
+true 19
+x=19, n=24, y=11, m=29
+Move 10
+k-1=9 and k+1=11
+true 20
+x=20, n=24, y=10, m=29
+Move 12
+k-1=11 and k+1=13
+true 21
+x=21, n=24, y=9, m=29
+Move 14
+k-1=13 and k+1=15
+true 22
+x=22, n=24, y=8, m=29
+Move 16
+k-1=15 and k+1=17
+true 23
+x=23, n=24, y=7, m=29
+Move 18
+k-1=17 and k+1=19
+true 24
+x=24, n=24, y=6, m=29
+Move 20
+k-1=19 and k+1=21
+true 25
+x=25, n=24, y=5, m=29
+Move 22
+k-1=21 and k+1=23
+true 26
+x=26, n=24, y=4, m=29
+Move 24
+k-1=23 and k+1=25
+true 27
+x=27, n=24, y=3, m=29
+Move 26
+k-1=25 and k+1=27
+true 28
+x=28, n=24, y=2, m=29
+Move 28
+k-1=27 and k+1=29
+true 29
+x=29, n=24, y=1, m=29
+Move 30
+k-1=29 and k+1=31
+false 29
+x=30, n=24, y=0, m=29
+Path 31
+Move -31
+k-1=75 and k+1=77
+true 0
+x=0, n=24, y=31, m=29
+Move -29
+k-1=77 and k+1=79
+true 1
+x=1, n=24, y=30, m=29
+Move -27
+k-1=79 and k+1=81
+true 2
+x=2, n=24, y=29, m=29
+Move -25
+k-1=81 and k+1=83
+true 3
+x=3, n=24, y=28, m=29
+Move -23
+k-1=83 and k+1=85
+true 4
+x=4, n=24, y=27, m=29
+Move -21
+k-1=85 and k+1=87
+true 5
+x=5, n=24, y=26, m=29
+Move -19
+k-1=87 and k+1=89
+true 6
+x=6, n=24, y=25, m=29
+Move -17
+k-1=89 and k+1=91
+true 7
+x=7, n=24, y=24, m=29
+Move -15
+k-1=91 and k+1=93
+true 8
+x=8, n=24, y=23, m=29
+Move -13
+k-1=93 and k+1=95
+true 9
+x=9, n=24, y=22, m=29
+Move -11
+k-1=95 and k+1=97
+true 10
+x=10, n=24, y=21, m=29
+Move -9
+k-1=97 and k+1=99
+true 11
+x=11, n=24, y=20, m=29
+Move -7
+k-1=99 and k+1=101
+true 12
+x=12, n=24, y=19, m=29
+Move -5
+k-1=101 and k+1=103
+true 13
+x=13, n=24, y=18, m=29
+Move -3
+k-1=103 and k+1=105
+true 14
+x=14, n=24, y=17, m=29
+Move -1
+k-1=105 and k+1=0
+true 15
+x=15, n=24, y=16, m=29
+Move 1
+k-1=0 and k+1=2
+true 16
+x=16, n=24, y=15, m=29
+Move 3
+k-1=2 and k+1=4
+true 17
+x=17, n=24, y=14, m=29
+Move 5
+k-1=4 and k+1=6
+true 18
+x=18, n=24, y=13, m=29
+Move 7
+k-1=6 and k+1=8
+true 19
+x=19, n=24, y=12, m=29
+Move 9
+k-1=8 and k+1=10
+true 20
+x=20, n=24, y=11, m=29
+Move 11
+k-1=10 and k+1=12
+true 21
+x=21, n=24, y=10, m=29
+Move 13
+k-1=12 and k+1=14
+true 22
+x=22, n=24, y=9, m=29
+Move 15
+k-1=14 and k+1=16
+true 23
+x=23, n=24, y=8, m=29
+Move 17
+k-1=16 and k+1=18
+true 24
+x=24, n=24, y=7, m=29
+Move 19
+k-1=18 and k+1=20
+true 25
+x=25, n=24, y=6, m=29
+Move 21
+k-1=20 and k+1=22
+true 26
+x=26, n=24, y=5, m=29
+Move 23
+k-1=22 and k+1=24
+true 27
+x=27, n=24, y=4, m=29
+Move 25
+k-1=24 and k+1=26
+true 28
+x=28, n=24, y=3, m=29
+Move 27
+k-1=26 and k+1=28
+true 29
+x=29, n=24, y=2, m=29
+Move 29
+k-1=28 and k+1=30
+true 30
+x=30, n=24, y=1, m=29
+Move 31
+k-1=30 and k+1=32
+false 30
+x=31, n=24, y=0, m=29
+Path 32
+Move -32
+k-1=74 and k+1=76
+true 0
+x=0, n=24, y=32, m=29
+Move -30
+k-1=76 and k+1=78
+true 1
+x=1, n=24, y=31, m=29
+Move -28
+k-1=78 and k+1=80
+true 2
+x=2, n=24, y=30, m=29
+Move -26
+k-1=80 and k+1=82
+true 3
+x=3, n=24, y=29, m=29
+Move -24
+k-1=82 and k+1=84
+true 4
+x=4, n=24, y=28, m=29
+Move -22
+k-1=84 and k+1=86
+true 5
+x=5, n=24, y=27, m=29
+Move -20
+k-1=86 and k+1=88
+true 6
+x=6, n=24, y=26, m=29
+Move -18
+k-1=88 and k+1=90
+true 7
+x=7, n=24, y=25, m=29
+Move -16
+k-1=90 and k+1=92
+true 8
+x=8, n=24, y=24, m=29
+Move -14
+k-1=92 and k+1=94
+true 9
+x=9, n=24, y=23, m=29
+Move -12
+k-1=94 and k+1=96
+true 10
+x=10, n=24, y=22, m=29
+Move -10
+k-1=96 and k+1=98
+true 11
+x=11, n=24, y=21, m=29
+Move -8
+k-1=98 and k+1=100
+true 12
+x=12, n=24, y=20, m=29
+Move -6
+k-1=100 and k+1=102
+true 13
+x=13, n=24, y=19, m=29
+Move -4
+k-1=102 and k+1=104
+true 14
+x=14, n=24, y=18, m=29
+Move -2
+k-1=104 and k+1=106
+true 15
+x=15, n=24, y=17, m=29
+Move 0
+k-1=106 and k+1=1
+true 16
+x=16, n=24, y=16, m=29
+Move 2
+k-1=1 and k+1=3
+true 17
+x=17, n=24, y=15, m=29
+Move 4
+k-1=3 and k+1=5
+true 18
+x=18, n=24, y=14, m=29
+Move 6
+k-1=5 and k+1=7
+true 19
+x=19, n=24, y=13, m=29
+Move 8
+k-1=7 and k+1=9
+true 20
+x=20, n=24, y=12, m=29
+Move 10
+k-1=9 and k+1=11
+true 21
+x=21, n=24, y=11, m=29
+Move 12
+k-1=11 and k+1=13
+true 22
+x=22, n=24, y=10, m=29
+Move 14
+k-1=13 and k+1=15
+true 23
+x=23, n=24, y=9, m=29
+Move 16
+k-1=15 and k+1=17
+true 24
+x=24, n=24, y=8, m=29
+Move 18
+k-1=17 and k+1=19
+true 25
+x=25, n=24, y=7, m=29
+Move 20
+k-1=19 and k+1=21
+true 26
+x=26, n=24, y=6, m=29
+Move 22
+k-1=21 and k+1=23
+true 27
+x=27, n=24, y=5, m=29
+Move 24
+k-1=23 and k+1=25
+true 28
+x=28, n=24, y=4, m=29
+Move 26
+k-1=25 and k+1=27
+true 29
+x=29, n=24, y=3, m=29
+Move 28
+k-1=27 and k+1=29
+true 30
+x=30, n=24, y=2, m=29
+Move 30
+k-1=29 and k+1=31
+true 31
+x=31, n=24, y=1, m=29
+Move 32
+k-1=31 and k+1=33
+false 31
+x=32, n=24, y=0, m=29
+Path 33
+Move -33
+k-1=73 and k+1=75
+true 0
+x=0, n=24, y=33, m=29
+Move -31
+k-1=75 and k+1=77
+true 1
+x=1, n=24, y=32, m=29
+Move -29
+k-1=77 and k+1=79
+true 2
+x=2, n=24, y=31, m=29
+Move -27
+k-1=79 and k+1=81
+true 3
+x=3, n=24, y=30, m=29
+Move -25
+k-1=81 and k+1=83
+true 4
+x=4, n=24, y=29, m=29
+Move -23
+k-1=83 and k+1=85
+true 5
+x=5, n=24, y=28, m=29
+Move -21
+k-1=85 and k+1=87
+true 6
+x=6, n=24, y=27, m=29
+Move -19
+k-1=87 and k+1=89
+true 7
+x=7, n=24, y=26, m=29
+Move -17
+k-1=89 and k+1=91
+true 8
+x=8, n=24, y=25, m=29
+Move -15
+k-1=91 and k+1=93
+true 9
+x=9, n=24, y=24, m=29
+Move -13
+k-1=93 and k+1=95
+true 10
+x=10, n=24, y=23, m=29
+Move -11
+k-1=95 and k+1=97
+true 11
+x=11, n=24, y=22, m=29
+Move -9
+k-1=97 and k+1=99
+true 12
+x=12, n=24, y=21, m=29
+Move -7
+k-1=99 and k+1=101
+true 13
+x=13, n=24, y=20, m=29
+Move -5
+k-1=101 and k+1=103
+true 14
+x=14, n=24, y=19, m=29
+Move -3
+k-1=103 and k+1=105
+true 15
+x=15, n=24, y=18, m=29
+Move -1
+k-1=105 and k+1=0
+true 16
+x=16, n=24, y=17, m=29
+Move 1
+k-1=0 and k+1=2
+true 17
+x=17, n=24, y=16, m=29
+Move 3
+k-1=2 and k+1=4
+true 18
+x=18, n=24, y=15, m=29
+Move 5
+k-1=4 and k+1=6
+true 19
+x=19, n=24, y=14, m=29
+Move 7
+k-1=6 and k+1=8
+true 20
+x=20, n=24, y=13, m=29
+Move 9
+k-1=8 and k+1=10
+true 21
+x=21, n=24, y=12, m=29
+Move 11
+k-1=10 and k+1=12
+true 22
+x=22, n=24, y=11, m=29
+Move 13
+k-1=12 and k+1=14
+true 23
+x=23, n=24, y=10, m=29
+Move 15
+k-1=14 and k+1=16
+true 24
+x=24, n=24, y=9, m=29
+Move 17
+k-1=16 and k+1=18
+true 25
+x=25, n=24, y=8, m=29
+Move 19
+k-1=18 and k+1=20
+true 26
+x=26, n=24, y=7, m=29
+Move 21
+k-1=20 and k+1=22
+true 27
+x=27, n=24, y=6, m=29
+Move 23
+k-1=22 and k+1=24
+true 28
+x=28, n=24, y=5, m=29
+Move 25
+k-1=24 and k+1=26
+true 29
+x=29, n=24, y=4, m=29
+Move 27
+k-1=26 and k+1=28
+true 30
+x=30, n=24, y=3, m=29
+Move 29
+k-1=28 and k+1=30
+true 31
+x=31, n=24, y=2, m=29
+Move 31
+k-1=30 and k+1=32
+true 32
+x=32, n=24, y=1, m=29
+Move 33
+k-1=32 and k+1=34
+false 32
+x=33, n=24, y=0, m=29
+Path 34
+Move -34
+k-1=72 and k+1=74
+true 0
+x=0, n=24, y=34, m=29
+Move -32
+k-1=74 and k+1=76
+true 1
+x=1, n=24, y=33, m=29
+Move -30
+k-1=76 and k+1=78
+true 2
+x=2, n=24, y=32, m=29
+Move -28
+k-1=78 and k+1=80
+true 3
+x=3, n=24, y=31, m=29
+Move -26
+k-1=80 and k+1=82
+true 4
+x=4, n=24, y=30, m=29
+Move -24
+k-1=82 and k+1=84
+true 5
+x=5, n=24, y=29, m=29
+Move -22
+k-1=84 and k+1=86
+true 6
+x=6, n=24, y=28, m=29
+Move -20
+k-1=86 and k+1=88
+true 7
+x=7, n=24, y=27, m=29
+Move -18
+k-1=88 and k+1=90
+true 8
+x=8, n=24, y=26, m=29
+Move -16
+k-1=90 and k+1=92
+true 9
+x=9, n=24, y=25, m=29
+Move -14
+k-1=92 and k+1=94
+true 10
+x=10, n=24, y=24, m=29
+Move -12
+k-1=94 and k+1=96
+true 11
+x=11, n=24, y=23, m=29
+Move -10
+k-1=96 and k+1=98
+true 12
+x=12, n=24, y=22, m=29
+Move -8
+k-1=98 and k+1=100
+true 13
+x=13, n=24, y=21, m=29
+Move -6
+k-1=100 and k+1=102
+true 14
+x=14, n=24, y=20, m=29
+Move -4
+k-1=102 and k+1=104
+true 15
+x=15, n=24, y=19, m=29
+Move -2
+k-1=104 and k+1=106
+true 16
+x=16, n=24, y=18, m=29
+Move 0
+k-1=106 and k+1=1
+true 17
+x=17, n=24, y=17, m=29
+Move 2
+k-1=1 and k+1=3
+true 18
+x=18, n=24, y=16, m=29
+Move 4
+k-1=3 and k+1=5
+true 19
+x=19, n=24, y=15, m=29
+Move 6
+k-1=5 and k+1=7
+true 20
+x=20, n=24, y=14, m=29
+Move 8
+k-1=7 and k+1=9
+true 21
+x=21, n=24, y=13, m=29
+Move 10
+k-1=9 and k+1=11
+true 22
+x=22, n=24, y=12, m=29
+Move 12
+k-1=11 and k+1=13
+true 23
+x=23, n=24, y=11, m=29
+Move 14
+k-1=13 and k+1=15
+true 24
+x=24, n=24, y=10, m=29
+Move 16
+k-1=15 and k+1=17
+true 25
+x=25, n=24, y=9, m=29
+Move 18
+k-1=17 and k+1=19
+true 26
+x=26, n=24, y=8, m=29
+Move 20
+k-1=19 and k+1=21
+true 27
+x=27, n=24, y=7, m=29
+Move 22
+k-1=21 and k+1=23
+true 28
+x=28, n=24, y=6, m=29
+Move 24
+k-1=23 and k+1=25
+true 29
+x=29, n=24, y=5, m=29
+Move 26
+k-1=25 and k+1=27
+true 30
+x=30, n=24, y=4, m=29
+Move 28
+k-1=27 and k+1=29
+true 31
+x=31, n=24, y=3, m=29
+Move 30
+k-1=29 and k+1=31
+true 32
+x=32, n=24, y=2, m=29
+Move 32
+k-1=31 and k+1=33
+true 33
+x=33, n=24, y=1, m=29
+Move 34
+k-1=33 and k+1=35
+false 33
+x=34, n=24, y=0, m=29
+Path 35
+Move -35
+k-1=71 and k+1=73
+true 0
+x=0, n=24, y=35, m=29
+Move -33
+k-1=73 and k+1=75
+true 1
+x=1, n=24, y=34, m=29
+Move -31
+k-1=75 and k+1=77
+true 2
+x=2, n=24, y=33, m=29
+Move -29
+k-1=77 and k+1=79
+true 3
+x=3, n=24, y=32, m=29
+Move -27
+k-1=79 and k+1=81
+true 4
+x=4, n=24, y=31, m=29
+Move -25
+k-1=81 and k+1=83
+true 5
+x=5, n=24, y=30, m=29
+Move -23
+k-1=83 and k+1=85
+true 6
+x=6, n=24, y=29, m=29
+Move -21
+k-1=85 and k+1=87
+true 7
+x=7, n=24, y=28, m=29
+Move -19
+k-1=87 and k+1=89
+true 8
+x=8, n=24, y=27, m=29
+Move -17
+k-1=89 and k+1=91
+true 9
+x=9, n=24, y=26, m=29
+Move -15
+k-1=91 and k+1=93
+true 10
+x=10, n=24, y=25, m=29
+Move -13
+k-1=93 and k+1=95
+true 11
+x=11, n=24, y=24, m=29
+Move -11
+k-1=95 and k+1=97
+true 12
+x=12, n=24, y=23, m=29
+Move -9
+k-1=97 and k+1=99
+true 13
+x=13, n=24, y=22, m=29
+Move -7
+k-1=99 and k+1=101
+true 14
+x=14, n=24, y=21, m=29
+Move -5
+k-1=101 and k+1=103
+true 15
+x=15, n=24, y=20, m=29
+Move -3
+k-1=103 and k+1=105
+true 16
+x=16, n=24, y=19, m=29
+Move -1
+k-1=105 and k+1=0
+true 17
+x=17, n=24, y=18, m=29
+Move 1
+k-1=0 and k+1=2
+true 18
+x=18, n=24, y=17, m=29
+Move 3
+k-1=2 and k+1=4
+true 19
+x=19, n=24, y=16, m=29
+Move 5
+k-1=4 and k+1=6
+true 20
+x=20, n=24, y=15, m=29
+Move 7
+k-1=6 and k+1=8
+true 21
+x=21, n=24, y=14, m=29
+Move 9
+k-1=8 and k+1=10
+true 22
+x=22, n=24, y=13, m=29
+Move 11
+k-1=10 and k+1=12
+true 23
+x=23, n=24, y=12, m=29
+Move 13
+k-1=12 and k+1=14
+true 24
+x=24, n=24, y=11, m=29
+Move 15
+k-1=14 and k+1=16
+true 25
+x=25, n=24, y=10, m=29
+Move 17
+k-1=16 and k+1=18
+true 26
+x=26, n=24, y=9, m=29
+Move 19
+k-1=18 and k+1=20
+true 27
+x=27, n=24, y=8, m=29
+Move 21
+k-1=20 and k+1=22
+true 28
+x=28, n=24, y=7, m=29
+Move 23
+k-1=22 and k+1=24
+true 29
+x=29, n=24, y=6, m=29
+Move 25
+k-1=24 and k+1=26
+true 30
+x=30, n=24, y=5, m=29
+Move 27
+k-1=26 and k+1=28
+true 31
+x=31, n=24, y=4, m=29
+Move 29
+k-1=28 and k+1=30
+true 32
+x=32, n=24, y=3, m=29
+Move 31
+k-1=30 and k+1=32
+true 33
+x=33, n=24, y=2, m=29
+Move 33
+k-1=32 and k+1=34
+true 34
+x=34, n=24, y=1, m=29
+Move 35
+k-1=34 and k+1=36
+false 34
+x=35, n=24, y=0, m=29
+Path 36
+Move -36
+k-1=70 and k+1=72
+true 0
+x=0, n=24, y=36, m=29
+Move -34
+k-1=72 and k+1=74
+true 1
+x=1, n=24, y=35, m=29
+Move -32
+k-1=74 and k+1=76
+true 2
+x=2, n=24, y=34, m=29
+Move -30
+k-1=76 and k+1=78
+true 3
+x=3, n=24, y=33, m=29
+Move -28
+k-1=78 and k+1=80
+true 4
+x=4, n=24, y=32, m=29
+Move -26
+k-1=80 and k+1=82
+true 5
+x=5, n=24, y=31, m=29
+Move -24
+k-1=82 and k+1=84
+true 6
+x=6, n=24, y=30, m=29
+Move -22
+k-1=84 and k+1=86
+true 7
+x=7, n=24, y=29, m=29
+Move -20
+k-1=86 and k+1=88
+true 8
+x=8, n=24, y=28, m=29
+Move -18
+k-1=88 and k+1=90
+true 9
+x=9, n=24, y=27, m=29
+Move -16
+k-1=90 and k+1=92
+true 10
+x=10, n=24, y=26, m=29
+Move -14
+k-1=92 and k+1=94
+true 11
+x=11, n=24, y=25, m=29
+Move -12
+k-1=94 and k+1=96
+true 12
+x=12, n=24, y=24, m=29
+Move -10
+k-1=96 and k+1=98
+true 13
+x=13, n=24, y=23, m=29
+Move -8
+k-1=98 and k+1=100
+true 14
+x=14, n=24, y=22, m=29
+Move -6
+k-1=100 and k+1=102
+true 15
+x=15, n=24, y=21, m=29
+Move -4
+k-1=102 and k+1=104
+true 16
+x=16, n=24, y=20, m=29
+Move -2
+k-1=104 and k+1=106
+true 17
+x=17, n=24, y=19, m=29
+Move 0
+k-1=106 and k+1=1
+true 18
+x=18, n=24, y=18, m=29
+Move 2
+k-1=1 and k+1=3
+true 19
+x=19, n=24, y=17, m=29
+Move 4
+k-1=3 and k+1=5
+true 20
+x=20, n=24, y=16, m=29
+Move 6
+k-1=5 and k+1=7
+true 21
+x=21, n=24, y=15, m=29
+Move 8
+k-1=7 and k+1=9
+true 22
+x=22, n=24, y=14, m=29
+Move 10
+k-1=9 and k+1=11
+true 23
+x=23, n=24, y=13, m=29
+Move 12
+k-1=11 and k+1=13
+true 24
+x=24, n=24, y=12, m=29
+Move 14
+k-1=13 and k+1=15
+true 25
+x=25, n=24, y=11, m=29
+Move 16
+k-1=15 and k+1=17
+true 26
+x=26, n=24, y=10, m=29
+Move 18
+k-1=17 and k+1=19
+true 27
+x=27, n=24, y=9, m=29
+Move 20
+k-1=19 and k+1=21
+true 28
+x=28, n=24, y=8, m=29
+Move 22
+k-1=21 and k+1=23
+true 29
+x=29, n=24, y=7, m=29
+Move 24
+k-1=23 and k+1=25
+true 30
+x=30, n=24, y=6, m=29
+Move 26
+k-1=25 and k+1=27
+true 31
+x=31, n=24, y=5, m=29
+Move 28
+k-1=27 and k+1=29
+true 32
+x=32, n=24, y=4, m=29
+Move 30
+k-1=29 and k+1=31
+true 33
+x=33, n=24, y=3, m=29
+Move 32
+k-1=31 and k+1=33
+true 34
+x=34, n=24, y=2, m=29
+Move 34
+k-1=33 and k+1=35
+true 35
+x=35, n=24, y=1, m=29
+Move 36
+k-1=35 and k+1=37
+false 35
+x=36, n=24, y=0, m=29
+Path 37
+Move -37
+k-1=69 and k+1=71
+true 0
+x=0, n=24, y=37, m=29
+Move -35
+k-1=71 and k+1=73
+true 1
+x=1, n=24, y=36, m=29
+Move -33
+k-1=73 and k+1=75
+true 2
+x=2, n=24, y=35, m=29
+Move -31
+k-1=75 and k+1=77
+true 3
+x=3, n=24, y=34, m=29
+Move -29
+k-1=77 and k+1=79
+true 4
+x=4, n=24, y=33, m=29
+Move -27
+k-1=79 and k+1=81
+true 5
+x=5, n=24, y=32, m=29
+Move -25
+k-1=81 and k+1=83
+true 6
+x=6, n=24, y=31, m=29
+Move -23
+k-1=83 and k+1=85
+true 7
+x=7, n=24, y=30, m=29
+Move -21
+k-1=85 and k+1=87
+true 8
+x=8, n=24, y=29, m=29
+Move -19
+k-1=87 and k+1=89
+true 9
+x=9, n=24, y=28, m=29
+Move -17
+k-1=89 and k+1=91
+true 10
+x=10, n=24, y=27, m=29
+Move -15
+k-1=91 and k+1=93
+true 11
+x=11, n=24, y=26, m=29
+Move -13
+k-1=93 and k+1=95
+true 12
+x=12, n=24, y=25, m=29
+Move -11
+k-1=95 and k+1=97
+true 13
+x=13, n=24, y=24, m=29
+Move -9
+k-1=97 and k+1=99
+true 14
+x=14, n=24, y=23, m=29
+Move -7
+k-1=99 and k+1=101
+true 15
+x=15, n=24, y=22, m=29
+Move -5
+k-1=101 and k+1=103
+true 16
+x=16, n=24, y=21, m=29
+Move -3
+k-1=103 and k+1=105
+true 17
+x=17, n=24, y=20, m=29
+Move -1
+k-1=105 and k+1=0
+true 18
+x=18, n=24, y=19, m=29
+Move 1
+k-1=0 and k+1=2
+true 19
+x=19, n=24, y=18, m=29
+Move 3
+k-1=2 and k+1=4
+true 20
+x=20, n=24, y=17, m=29
+Move 5
+k-1=4 and k+1=6
+true 21
+x=21, n=24, y=16, m=29
+Move 7
+k-1=6 and k+1=8
+true 22
+x=22, n=24, y=15, m=29
+Move 9
+k-1=8 and k+1=10
+true 23
+x=23, n=24, y=14, m=29
+Move 11
+k-1=10 and k+1=12
+true 24
+x=24, n=24, y=13, m=29
+Move 13
+k-1=12 and k+1=14
+true 25
+x=25, n=24, y=12, m=29
+Move 15
+k-1=14 and k+1=16
+true 26
+x=26, n=24, y=11, m=29
+Move 17
+k-1=16 and k+1=18
+true 27
+x=27, n=24, y=10, m=29
+Move 19
+k-1=18 and k+1=20
+true 28
+x=28, n=24, y=9, m=29
+Move 21
+k-1=20 and k+1=22
+true 29
+x=29, n=24, y=8, m=29
+Move 23
+k-1=22 and k+1=24
+true 30
+x=30, n=24, y=7, m=29
+Move 25
+k-1=24 and k+1=26
+true 31
+x=31, n=24, y=6, m=29
+Move 27
+k-1=26 and k+1=28
+true 32
+x=32, n=24, y=5, m=29
+Move 29
+k-1=28 and k+1=30
+true 33
+x=33, n=24, y=4, m=29
+Move 31
+k-1=30 and k+1=32
+true 34
+x=34, n=24, y=3, m=29
+Move 33
+k-1=32 and k+1=34
+true 35
+x=35, n=24, y=2, m=29
+Move 35
+k-1=34 and k+1=36
+true 36
+x=36, n=24, y=1, m=29
+Move 37
+k-1=36 and k+1=38
+false 36
+x=37, n=24, y=0, m=29
+Path 38
+Move -38
+k-1=68 and k+1=70
+true 0
+x=0, n=24, y=38, m=29
+Move -36
+k-1=70 and k+1=72
+true 1
+x=1, n=24, y=37, m=29
+Move -34
+k-1=72 and k+1=74
+true 2
+x=2, n=24, y=36, m=29
+Move -32
+k-1=74 and k+1=76
+true 3
+x=3, n=24, y=35, m=29
+Move -30
+k-1=76 and k+1=78
+true 4
+x=4, n=24, y=34, m=29
+Move -28
+k-1=78 and k+1=80
+true 5
+x=5, n=24, y=33, m=29
+Move -26
+k-1=80 and k+1=82
+true 6
+x=6, n=24, y=32, m=29
+Move -24
+k-1=82 and k+1=84
+true 7
+x=7, n=24, y=31, m=29
+Move -22
+k-1=84 and k+1=86
+true 8
+x=8, n=24, y=30, m=29
+Move -20
+k-1=86 and k+1=88
+true 9
+x=9, n=24, y=29, m=29
+Move -18
+k-1=88 and k+1=90
+true 10
+x=10, n=24, y=28, m=29
+Move -16
+k-1=90 and k+1=92
+true 11
+x=11, n=24, y=27, m=29
+Move -14
+k-1=92 and k+1=94
+true 12
+x=12, n=24, y=26, m=29
+Move -12
+k-1=94 and k+1=96
+true 13
+x=13, n=24, y=25, m=29
+Move -10
+k-1=96 and k+1=98
+true 14
+x=14, n=24, y=24, m=29
+Move -8
+k-1=98 and k+1=100
+true 15
+x=15, n=24, y=23, m=29
+Move -6
+k-1=100 and k+1=102
+true 16
+x=16, n=24, y=22, m=29
+Move -4
+k-1=102 and k+1=104
+true 17
+x=17, n=24, y=21, m=29
+Move -2
+k-1=104 and k+1=106
+true 18
+x=18, n=24, y=20, m=29
+Move 0
+k-1=106 and k+1=1
+true 19
+x=19, n=24, y=19, m=29
+Move 2
+k-1=1 and k+1=3
+true 20
+x=20, n=24, y=18, m=29
+Move 4
+k-1=3 and k+1=5
+true 21
+x=21, n=24, y=17, m=29
+Move 6
+k-1=5 and k+1=7
+true 22
+x=22, n=24, y=16, m=29
+Move 8
+k-1=7 and k+1=9
+true 23
+x=23, n=24, y=15, m=29
+Move 10
+k-1=9 and k+1=11
+true 24
+x=24, n=24, y=14, m=29
+Move 12
+k-1=11 and k+1=13
+true 25
+x=25, n=24, y=13, m=29
+Move 14
+k-1=13 and k+1=15
+true 26
+x=26, n=24, y=12, m=29
+Move 16
+k-1=15 and k+1=17
+true 27
+x=27, n=24, y=11, m=29
+Move 18
+k-1=17 and k+1=19
+true 28
+x=28, n=24, y=10, m=29
+Move 20
+k-1=19 and k+1=21
+true 29
+x=29, n=24, y=9, m=29
+Move 22
+k-1=21 and k+1=23
+true 30
+x=30, n=24, y=8, m=29
+Move 24
+k-1=23 and k+1=25
+true 31
+x=31, n=24, y=7, m=29
+Move 26
+k-1=25 and k+1=27
+true 32
+x=32, n=24, y=6, m=29
+Move 28
+k-1=27 and k+1=29
+true 33
+x=33, n=24, y=5, m=29
+Move 30
+k-1=29 and k+1=31
+true 34
+x=34, n=24, y=4, m=29
+Move 32
+k-1=31 and k+1=33
+true 35
+x=35, n=24, y=3, m=29
+Move 34
+k-1=33 and k+1=35
+true 36
+x=36, n=24, y=2, m=29
+Move 36
+k-1=35 and k+1=37
+true 37
+x=37, n=24, y=1, m=29
+Move 38
+k-1=37 and k+1=39
+false 37
+x=38, n=24, y=0, m=29
+Path 39
+Move -39
+k-1=67 and k+1=69
+true 0
+x=0, n=24, y=39, m=29
+Move -37
+k-1=69 and k+1=71
+true 1
+x=1, n=24, y=38, m=29
+Move -35
+k-1=71 and k+1=73
+true 2
+x=2, n=24, y=37, m=29
+Move -33
+k-1=73 and k+1=75
+true 3
+x=3, n=24, y=36, m=29
+Move -31
+k-1=75 and k+1=77
+true 4
+x=4, n=24, y=35, m=29
+Move -29
+k-1=77 and k+1=79
+true 5
+x=5, n=24, y=34, m=29
+Move -27
+k-1=79 and k+1=81
+true 6
+x=6, n=24, y=33, m=29
+Move -25
+k-1=81 and k+1=83
+true 7
+x=7, n=24, y=32, m=29
+Move -23
+k-1=83 and k+1=85
+true 8
+x=8, n=24, y=31, m=29
+Move -21
+k-1=85 and k+1=87
+true 9
+x=9, n=24, y=30, m=29
+Move -19
+k-1=87 and k+1=89
+true 10
+x=10, n=24, y=29, m=29
+Move -17
+k-1=89 and k+1=91
+true 11
+x=11, n=24, y=28, m=29
+Move -15
+k-1=91 and k+1=93
+true 12
+x=12, n=24, y=27, m=29
+Move -13
+k-1=93 and k+1=95
+true 13
+x=13, n=24, y=26, m=29
+Move -11
+k-1=95 and k+1=97
+true 14
+x=14, n=24, y=25, m=29
+Move -9
+k-1=97 and k+1=99
+true 15
+x=15, n=24, y=24, m=29
+Move -7
+k-1=99 and k+1=101
+true 16
+x=16, n=24, y=23, m=29
+Move -5
+k-1=101 and k+1=103
+true 17
+x=17, n=24, y=22, m=29
+Move -3
+k-1=103 and k+1=105
+true 18
+x=18, n=24, y=21, m=29
+Move -1
+k-1=105 and k+1=0
+true 19
+x=19, n=24, y=20, m=29
+Move 1
+k-1=0 and k+1=2
+true 20
+x=20, n=24, y=19, m=29
+Move 3
+k-1=2 and k+1=4
+true 21
+x=21, n=24, y=18, m=29
+Move 5
+k-1=4 and k+1=6
+true 22
+x=22, n=24, y=17, m=29
+Move 7
+k-1=6 and k+1=8
+true 23
+x=23, n=24, y=16, m=29
+Move 9
+k-1=8 and k+1=10
+true 24
+x=24, n=24, y=15, m=29
+Move 11
+k-1=10 and k+1=12
+true 25
+x=25, n=24, y=14, m=29
+Move 13
+k-1=12 and k+1=14
+true 26
+x=26, n=24, y=13, m=29
+Move 15
+k-1=14 and k+1=16
+true 27
+x=27, n=24, y=12, m=29
+Move 17
+k-1=16 and k+1=18
+true 28
+x=28, n=24, y=11, m=29
+Move 19
+k-1=18 and k+1=20
+true 29
+x=29, n=24, y=10, m=29
+Move 21
+k-1=20 and k+1=22
+true 30
+x=30, n=24, y=9, m=29
+Move 23
+k-1=22 and k+1=24
+true 31
+x=31, n=24, y=8, m=29
+Move 25
+k-1=24 and k+1=26
+true 32
+x=32, n=24, y=7, m=29
+Move 27
+k-1=26 and k+1=28
+true 33
+x=33, n=24, y=6, m=29
+Move 29
+k-1=28 and k+1=30
+true 34
+x=34, n=24, y=5, m=29
+Move 31
+k-1=30 and k+1=32
+true 35
+x=35, n=24, y=4, m=29
+Move 33
+k-1=32 and k+1=34
+true 36
+x=36, n=24, y=3, m=29
+Move 35
+k-1=34 and k+1=36
+true 37
+x=37, n=24, y=2, m=29
+Move 37
+k-1=36 and k+1=38
+true 38
+x=38, n=24, y=1, m=29
+Move 39
+k-1=38 and k+1=40
+false 38
+x=39, n=24, y=0, m=29
+Path 40
+Move -40
+k-1=66 and k+1=68
+true 0
+x=0, n=24, y=40, m=29
+Move -38
+k-1=68 and k+1=70
+true 1
+x=1, n=24, y=39, m=29
+Move -36
+k-1=70 and k+1=72
+true 2
+x=2, n=24, y=38, m=29
+Move -34
+k-1=72 and k+1=74
+true 3
+x=3, n=24, y=37, m=29
+Move -32
+k-1=74 and k+1=76
+true 4
+x=4, n=24, y=36, m=29
+Move -30
+k-1=76 and k+1=78
+true 5
+x=5, n=24, y=35, m=29
+Move -28
+k-1=78 and k+1=80
+true 6
+x=6, n=24, y=34, m=29
+Move -26
+k-1=80 and k+1=82
+true 7
+x=7, n=24, y=33, m=29
+Move -24
+k-1=82 and k+1=84
+true 8
+x=8, n=24, y=32, m=29
+Move -22
+k-1=84 and k+1=86
+true 9
+x=9, n=24, y=31, m=29
+Move -20
+k-1=86 and k+1=88
+true 10
+x=10, n=24, y=30, m=29
+Move -18
+k-1=88 and k+1=90
+true 11
+x=11, n=24, y=29, m=29
+Move -16
+k-1=90 and k+1=92
+true 12
+x=12, n=24, y=28, m=29
+Move -14
+k-1=92 and k+1=94
+true 13
+x=13, n=24, y=27, m=29
+Move -12
+k-1=94 and k+1=96
+true 14
+x=14, n=24, y=26, m=29
+Move -10
+k-1=96 and k+1=98
+true 15
+x=15, n=24, y=25, m=29
+Move -8
+k-1=98 and k+1=100
+true 16
+x=16, n=24, y=24, m=29
+Move -6
+k-1=100 and k+1=102
+true 17
+x=17, n=24, y=23, m=29
+Move -4
+k-1=102 and k+1=104
+true 18
+x=18, n=24, y=22, m=29
+Move -2
+k-1=104 and k+1=106
+true 19
+x=19, n=24, y=21, m=29
+Move 0
+k-1=106 and k+1=1
+true 20
+x=20, n=24, y=20, m=29
+Move 2
+k-1=1 and k+1=3
+true 21
+x=21, n=24, y=19, m=29
+Move 4
+k-1=3 and k+1=5
+true 22
+x=22, n=24, y=18, m=29
+Move 6
+k-1=5 and k+1=7
+true 23
+x=23, n=24, y=17, m=29
+Move 8
+k-1=7 and k+1=9
+true 24
+x=24, n=24, y=16, m=29
+Move 10
+k-1=9 and k+1=11
+true 25
+x=25, n=24, y=15, m=29
+Move 12
+k-1=11 and k+1=13
+true 26
+x=26, n=24, y=14, m=29
+Move 14
+k-1=13 and k+1=15
+true 27
+x=27, n=24, y=13, m=29
+Move 16
+k-1=15 and k+1=17
+true 28
+x=28, n=24, y=12, m=29
+Move 18
+k-1=17 and k+1=19
+true 29
+x=29, n=24, y=11, m=29
+Move 20
+k-1=19 and k+1=21
+true 30
+x=30, n=24, y=10, m=29
+Move 22
+k-1=21 and k+1=23
+true 31
+x=31, n=24, y=9, m=29
+Move 24
+k-1=23 and k+1=25
+true 32
+x=32, n=24, y=8, m=29
+Move 26
+k-1=25 and k+1=27
+true 33
+x=33, n=24, y=7, m=29
+Move 28
+k-1=27 and k+1=29
+true 34
+x=34, n=24, y=6, m=29
+Move 30
+k-1=29 and k+1=31
+true 35
+x=35, n=24, y=5, m=29
+Move 32
+k-1=31 and k+1=33
+true 36
+x=36, n=24, y=4, m=29
+Move 34
+k-1=33 and k+1=35
+true 37
+x=37, n=24, y=3, m=29
+Move 36
+k-1=35 and k+1=37
+true 38
+x=38, n=24, y=2, m=29
+Move 38
+k-1=37 and k+1=39
+true 39
+x=39, n=24, y=1, m=29
+Move 40
+k-1=39 and k+1=41
+false 39
+x=40, n=24, y=0, m=29
+Path 41
+Move -41
+k-1=65 and k+1=67
+true 0
+x=0, n=24, y=41, m=29
+Move -39
+k-1=67 and k+1=69
+true 1
+x=1, n=24, y=40, m=29
+Move -37
+k-1=69 and k+1=71
+true 2
+x=2, n=24, y=39, m=29
+Move -35
+k-1=71 and k+1=73
+true 3
+x=3, n=24, y=38, m=29
+Move -33
+k-1=73 and k+1=75
+true 4
+x=4, n=24, y=37, m=29
+Move -31
+k-1=75 and k+1=77
+true 5
+x=5, n=24, y=36, m=29
+Move -29
+k-1=77 and k+1=79
+true 6
+x=6, n=24, y=35, m=29
+Move -27
+k-1=79 and k+1=81
+true 7
+x=7, n=24, y=34, m=29
+Move -25
+k-1=81 and k+1=83
+true 8
+x=8, n=24, y=33, m=29
+Move -23
+k-1=83 and k+1=85
+true 9
+x=9, n=24, y=32, m=29
+Move -21
+k-1=85 and k+1=87
+true 10
+x=10, n=24, y=31, m=29
+Move -19
+k-1=87 and k+1=89
+true 11
+x=11, n=24, y=30, m=29
+Move -17
+k-1=89 and k+1=91
+true 12
+x=12, n=24, y=29, m=29
+Move -15
+k-1=91 and k+1=93
+true 13
+x=13, n=24, y=28, m=29
+Move -13
+k-1=93 and k+1=95
+true 14
+x=14, n=24, y=27, m=29
+Move -11
+k-1=95 and k+1=97
+true 15
+x=15, n=24, y=26, m=29
+Move -9
+k-1=97 and k+1=99
+true 16
+x=16, n=24, y=25, m=29
+Move -7
+k-1=99 and k+1=101
+true 17
+x=17, n=24, y=24, m=29
+Move -5
+k-1=101 and k+1=103
+true 18
+x=18, n=24, y=23, m=29
+Move -3
+k-1=103 and k+1=105
+true 19
+x=19, n=24, y=22, m=29
+Move -1
+k-1=105 and k+1=0
+true 20
+x=20, n=24, y=21, m=29
+Move 1
+k-1=0 and k+1=2
+true 21
+x=21, n=24, y=20, m=29
+Move 3
+k-1=2 and k+1=4
+true 22
+x=22, n=24, y=19, m=29
+Move 5
+k-1=4 and k+1=6
+true 23
+x=23, n=24, y=18, m=29
+Move 7
+k-1=6 and k+1=8
+true 24
+x=24, n=24, y=17, m=29
+Move 9
+k-1=8 and k+1=10
+true 25
+x=25, n=24, y=16, m=29
+Move 11
+k-1=10 and k+1=12
+true 26
+x=26, n=24, y=15, m=29
+Move 13
+k-1=12 and k+1=14
+true 27
+x=27, n=24, y=14, m=29
+Move 15
+k-1=14 and k+1=16
+true 28
+x=28, n=24, y=13, m=29
+Move 17
+k-1=16 and k+1=18
+true 29
+x=29, n=24, y=12, m=29
+Move 19
+k-1=18 and k+1=20
+true 30
+x=30, n=24, y=11, m=29
+Move 21
+k-1=20 and k+1=22
+true 31
+x=31, n=24, y=10, m=29
+Move 23
+k-1=22 and k+1=24
+true 32
+x=32, n=24, y=9, m=29
+Move 25
+k-1=24 and k+1=26
+true 33
+x=33, n=24, y=8, m=29
+Move 27
+k-1=26 and k+1=28
+true 34
+x=34, n=24, y=7, m=29
+Move 29
+k-1=28 and k+1=30
+true 35
+x=35, n=24, y=6, m=29
+Move 31
+k-1=30 and k+1=32
+true 36
+x=36, n=24, y=5, m=29
+Move 33
+k-1=32 and k+1=34
+true 37
+x=37, n=24, y=4, m=29
+Move 35
+k-1=34 and k+1=36
+true 38
+x=38, n=24, y=3, m=29
+Move 37
+k-1=36 and k+1=38
+true 39
+x=39, n=24, y=2, m=29
+Move 39
+k-1=38 and k+1=40
+true 40
+x=40, n=24, y=1, m=29
+Move 41
+k-1=40 and k+1=42
+false 40
+x=41, n=24, y=0, m=29
+Path 42
+Move -42
+k-1=64 and k+1=66
+true 0
+x=0, n=24, y=42, m=29
+Move -40
+k-1=66 and k+1=68
+true 1
+x=1, n=24, y=41, m=29
+Move -38
+k-1=68 and k+1=70
+true 2
+x=2, n=24, y=40, m=29
+Move -36
+k-1=70 and k+1=72
+true 3
+x=3, n=24, y=39, m=29
+Move -34
+k-1=72 and k+1=74
+true 4
+x=4, n=24, y=38, m=29
+Move -32
+k-1=74 and k+1=76
+true 5
+x=5, n=24, y=37, m=29
+Move -30
+k-1=76 and k+1=78
+true 6
+x=6, n=24, y=36, m=29
+Move -28
+k-1=78 and k+1=80
+true 7
+x=7, n=24, y=35, m=29
+Move -26
+k-1=80 and k+1=82
+true 8
+x=8, n=24, y=34, m=29
+Move -24
+k-1=82 and k+1=84
+true 9
+x=9, n=24, y=33, m=29
+Move -22
+k-1=84 and k+1=86
+true 10
+x=10, n=24, y=32, m=29
+Move -20
+k-1=86 and k+1=88
+true 11
+x=11, n=24, y=31, m=29
+Move -18
+k-1=88 and k+1=90
+true 12
+x=12, n=24, y=30, m=29
+Move -16
+k-1=90 and k+1=92
+true 13
+x=13, n=24, y=29, m=29
+Move -14
+k-1=92 and k+1=94
+true 14
+x=14, n=24, y=28, m=29
+Move -12
+k-1=94 and k+1=96
+true 15
+x=15, n=24, y=27, m=29
+Move -10
+k-1=96 and k+1=98
+true 16
+x=16, n=24, y=26, m=29
+Move -8
+k-1=98 and k+1=100
+true 17
+x=17, n=24, y=25, m=29
+Move -6
+k-1=100 and k+1=102
+true 18
+x=18, n=24, y=24, m=29
+Move -4
+k-1=102 and k+1=104
+true 19
+x=19, n=24, y=23, m=29
+Move -2
+k-1=104 and k+1=106
+true 20
+x=20, n=24, y=22, m=29
+Move 0
+k-1=106 and k+1=1
+true 21
+x=21, n=24, y=21, m=29
+Move 2
+k-1=1 and k+1=3
+true 22
+x=22, n=24, y=20, m=29
+Move 4
+k-1=3 and k+1=5
+true 23
+x=23, n=24, y=19, m=29
+Move 6
+k-1=5 and k+1=7
+true 24
+x=24, n=24, y=18, m=29
+Move 8
+k-1=7 and k+1=9
+true 25
+x=25, n=24, y=17, m=29
+Move 10
+k-1=9 and k+1=11
+true 26
+x=26, n=24, y=16, m=29
+Move 12
+k-1=11 and k+1=13
+true 27
+x=27, n=24, y=15, m=29
+Move 14
+k-1=13 and k+1=15
+true 28
+x=28, n=24, y=14, m=29
+Move 16
+k-1=15 and k+1=17
+true 29
+x=29, n=24, y=13, m=29
+Move 18
+k-1=17 and k+1=19
+true 30
+x=30, n=24, y=12, m=29
+Move 20
+k-1=19 and k+1=21
+true 31
+x=31, n=24, y=11, m=29
+Move 22
+k-1=21 and k+1=23
+true 32
+x=32, n=24, y=10, m=29
+Move 24
+k-1=23 and k+1=25
+true 33
+x=33, n=24, y=9, m=29
+Move 26
+k-1=25 and k+1=27
+true 34
+x=34, n=24, y=8, m=29
+Move 28
+k-1=27 and k+1=29
+true 35
+x=35, n=24, y=7, m=29
+Move 30
+k-1=29 and k+1=31
+true 36
+x=36, n=24, y=6, m=29
+Move 32
+k-1=31 and k+1=33
+true 37
+x=37, n=24, y=5, m=29
+Move 34
+k-1=33 and k+1=35
+true 38
+x=38, n=24, y=4, m=29
+Move 36
+k-1=35 and k+1=37
+true 39
+x=39, n=24, y=3, m=29
+Move 38
+k-1=37 and k+1=39
+true 40
+x=40, n=24, y=2, m=29
+Move 40
+k-1=39 and k+1=41
+true 41
+x=41, n=24, y=1, m=29
+Move 42
+k-1=41 and k+1=43
+false 41
+x=42, n=24, y=0, m=29
+Path 43
+Move -43
+k-1=63 and k+1=65
+true 0
+x=0, n=24, y=43, m=29
+Move -41
+k-1=65 and k+1=67
+true 1
+x=1, n=24, y=42, m=29
+Move -39
+k-1=67 and k+1=69
+true 2
+x=2, n=24, y=41, m=29
+Move -37
+k-1=69 and k+1=71
+true 3
+x=3, n=24, y=40, m=29
+Move -35
+k-1=71 and k+1=73
+true 4
+x=4, n=24, y=39, m=29
+Move -33
+k-1=73 and k+1=75
+true 5
+x=5, n=24, y=38, m=29
+Move -31
+k-1=75 and k+1=77
+true 6
+x=6, n=24, y=37, m=29
+Move -29
+k-1=77 and k+1=79
+true 7
+x=7, n=24, y=36, m=29
+Move -27
+k-1=79 and k+1=81
+true 8
+x=8, n=24, y=35, m=29
+Move -25
+k-1=81 and k+1=83
+true 9
+x=9, n=24, y=34, m=29
+Move -23
+k-1=83 and k+1=85
+true 10
+x=10, n=24, y=33, m=29
+Move -21
+k-1=85 and k+1=87
+true 11
+x=11, n=24, y=32, m=29
+Move -19
+k-1=87 and k+1=89
+true 12
+x=12, n=24, y=31, m=29
+Move -17
+k-1=89 and k+1=91
+true 13
+x=13, n=24, y=30, m=29
+Move -15
+k-1=91 and k+1=93
+true 14
+x=14, n=24, y=29, m=29
+Move -13
+k-1=93 and k+1=95
+true 15
+x=15, n=24, y=28, m=29
+Move -11
+k-1=95 and k+1=97
+true 16
+x=16, n=24, y=27, m=29
+Move -9
+k-1=97 and k+1=99
+true 17
+x=17, n=24, y=26, m=29
+Move -7
+k-1=99 and k+1=101
+true 18
+x=18, n=24, y=25, m=29
+Move -5
+k-1=101 and k+1=103
+true 19
+x=19, n=24, y=24, m=29
+Move -3
+k-1=103 and k+1=105
+true 20
+x=20, n=24, y=23, m=29
+Move -1
+k-1=105 and k+1=0
+true 21
+x=21, n=24, y=22, m=29
+Move 1
+k-1=0 and k+1=2
+true 22
+x=22, n=24, y=21, m=29
+Move 3
+k-1=2 and k+1=4
+true 23
+x=23, n=24, y=20, m=29
+Move 5
+k-1=4 and k+1=6
+true 24
+x=24, n=24, y=19, m=29
+Move 7
+k-1=6 and k+1=8
+true 25
+x=25, n=24, y=18, m=29
+Move 9
+k-1=8 and k+1=10
+true 26
+x=26, n=24, y=17, m=29
+Move 11
+k-1=10 and k+1=12
+true 27
+x=27, n=24, y=16, m=29
+Move 13
+k-1=12 and k+1=14
+true 28
+x=28, n=24, y=15, m=29
+Move 15
+k-1=14 and k+1=16
+true 29
+x=29, n=24, y=14, m=29
+Move 17
+k-1=16 and k+1=18
+true 30
+x=30, n=24, y=13, m=29
+Move 19
+k-1=18 and k+1=20
+true 31
+x=31, n=24, y=12, m=29
+Move 21
+k-1=20 and k+1=22
+true 32
+x=32, n=24, y=11, m=29
+Move 23
+k-1=22 and k+1=24
+true 33
+x=33, n=24, y=10, m=29
+Move 25
+k-1=24 and k+1=26
+true 34
+x=34, n=24, y=9, m=29
+Move 27
+k-1=26 and k+1=28
+true 35
+x=35, n=24, y=8, m=29
+Move 29
+k-1=28 and k+1=30
+true 36
+x=36, n=24, y=7, m=29
+Move 31
+k-1=30 and k+1=32
+true 37
+x=37, n=24, y=6, m=29
+Move 33
+k-1=32 and k+1=34
+true 38
+x=38, n=24, y=5, m=29
+Move 35
+k-1=34 and k+1=36
+true 39
+x=39, n=24, y=4, m=29
+Move 37
+k-1=36 and k+1=38
+true 40
+x=40, n=24, y=3, m=29
+Move 39
+k-1=38 and k+1=40
+true 41
+x=41, n=24, y=2, m=29
+Move 41
+k-1=40 and k+1=42
+true 42
+x=42, n=24, y=1, m=29
+Move 43
+k-1=42 and k+1=44
+false 42
+x=43, n=24, y=0, m=29
+Path 44
+Move -44
+k-1=62 and k+1=64
+true 0
+x=0, n=24, y=44, m=29
+Move -42
+k-1=64 and k+1=66
+true 1
+x=1, n=24, y=43, m=29
+Move -40
+k-1=66 and k+1=68
+true 2
+x=2, n=24, y=42, m=29
+Move -38
+k-1=68 and k+1=70
+true 3
+x=3, n=24, y=41, m=29
+Move -36
+k-1=70 and k+1=72
+true 4
+x=4, n=24, y=40, m=29
+Move -34
+k-1=72 and k+1=74
+true 5
+x=5, n=24, y=39, m=29
+Move -32
+k-1=74 and k+1=76
+true 6
+x=6, n=24, y=38, m=29
+Move -30
+k-1=76 and k+1=78
+true 7
+x=7, n=24, y=37, m=29
+Move -28
+k-1=78 and k+1=80
+true 8
+x=8, n=24, y=36, m=29
+Move -26
+k-1=80 and k+1=82
+true 9
+x=9, n=24, y=35, m=29
+Move -24
+k-1=82 and k+1=84
+true 10
+x=10, n=24, y=34, m=29
+Move -22
+k-1=84 and k+1=86
+true 11
+x=11, n=24, y=33, m=29
+Move -20
+k-1=86 and k+1=88
+true 12
+x=12, n=24, y=32, m=29
+Move -18
+k-1=88 and k+1=90
+true 13
+x=13, n=24, y=31, m=29
+Move -16
+k-1=90 and k+1=92
+true 14
+x=14, n=24, y=30, m=29
+Move -14
+k-1=92 and k+1=94
+true 15
+x=15, n=24, y=29, m=29
+Move -12
+k-1=94 and k+1=96
+true 16
+x=16, n=24, y=28, m=29
+Move -10
+k-1=96 and k+1=98
+true 17
+x=17, n=24, y=27, m=29
+Move -8
+k-1=98 and k+1=100
+true 18
+x=18, n=24, y=26, m=29
+Move -6
+k-1=100 and k+1=102
+true 19
+x=19, n=24, y=25, m=29
+Move -4
+k-1=102 and k+1=104
+true 20
+x=20, n=24, y=24, m=29
+Move -2
+k-1=104 and k+1=106
+true 21
+x=21, n=24, y=23, m=29
+Move 0
+k-1=106 and k+1=1
+true 22
+x=22, n=24, y=22, m=29
+Move 2
+k-1=1 and k+1=3
+true 23
+x=23, n=24, y=21, m=29
+Move 4
+k-1=3 and k+1=5
+true 24
+x=24, n=24, y=20, m=29
+Move 6
+k-1=5 and k+1=7
+true 25
+x=25, n=24, y=19, m=29
+Move 8
+k-1=7 and k+1=9
+true 26
+x=26, n=24, y=18, m=29
+Move 10
+k-1=9 and k+1=11
+true 27
+x=27, n=24, y=17, m=29
+Move 12
+k-1=11 and k+1=13
+true 28
+x=28, n=24, y=16, m=29
+Move 14
+k-1=13 and k+1=15
+true 29
+x=29, n=24, y=15, m=29
+Move 16
+k-1=15 and k+1=17
+true 30
+x=30, n=24, y=14, m=29
+Move 18
+k-1=17 and k+1=19
+true 31
+x=31, n=24, y=13, m=29
+Move 20
+k-1=19 and k+1=21
+true 32
+x=32, n=24, y=12, m=29
+Move 22
+k-1=21 and k+1=23
+true 33
+x=33, n=24, y=11, m=29
+Move 24
+k-1=23 and k+1=25
+true 34
+x=34, n=24, y=10, m=29
+Move 26
+k-1=25 and k+1=27
+true 35
+x=35, n=24, y=9, m=29
+Move 28
+k-1=27 and k+1=29
+true 36
+x=36, n=24, y=8, m=29
+Move 30
+k-1=29 and k+1=31
+true 37
+x=37, n=24, y=7, m=29
+Move 32
+k-1=31 and k+1=33
+true 38
+x=38, n=24, y=6, m=29
+Move 34
+k-1=33 and k+1=35
+true 39
+x=39, n=24, y=5, m=29
+Move 36
+k-1=35 and k+1=37
+true 40
+x=40, n=24, y=4, m=29
+Move 38
+k-1=37 and k+1=39
+true 41
+x=41, n=24, y=3, m=29
+Move 40
+k-1=39 and k+1=41
+true 42
+x=42, n=24, y=2, m=29
+Move 42
+k-1=41 and k+1=43
+true 43
+x=43, n=24, y=1, m=29
+Move 44
+k-1=43 and k+1=45
+false 43
+x=44, n=24, y=0, m=29
+Path 45
+Move -45
+k-1=61 and k+1=63
+true 0
+x=0, n=24, y=45, m=29
+Move -43
+k-1=63 and k+1=65
+true 1
+x=1, n=24, y=44, m=29
+Move -41
+k-1=65 and k+1=67
+true 2
+x=2, n=24, y=43, m=29
+Move -39
+k-1=67 and k+1=69
+true 3
+x=3, n=24, y=42, m=29
+Move -37
+k-1=69 and k+1=71
+true 4
+x=4, n=24, y=41, m=29
+Move -35
+k-1=71 and k+1=73
+true 5
+x=5, n=24, y=40, m=29
+Move -33
+k-1=73 and k+1=75
+true 6
+x=6, n=24, y=39, m=29
+Move -31
+k-1=75 and k+1=77
+true 7
+x=7, n=24, y=38, m=29
+Move -29
+k-1=77 and k+1=79
+true 8
+x=8, n=24, y=37, m=29
+Move -27
+k-1=79 and k+1=81
+true 9
+x=9, n=24, y=36, m=29
+Move -25
+k-1=81 and k+1=83
+true 10
+x=10, n=24, y=35, m=29
+Move -23
+k-1=83 and k+1=85
+true 11
+x=11, n=24, y=34, m=29
+Move -21
+k-1=85 and k+1=87
+true 12
+x=12, n=24, y=33, m=29
+Move -19
+k-1=87 and k+1=89
+true 13
+x=13, n=24, y=32, m=29
+Move -17
+k-1=89 and k+1=91
+true 14
+x=14, n=24, y=31, m=29
+Move -15
+k-1=91 and k+1=93
+true 15
+x=15, n=24, y=30, m=29
+Move -13
+k-1=93 and k+1=95
+true 16
+x=16, n=24, y=29, m=29
+Move -11
+k-1=95 and k+1=97
+true 17
+x=17, n=24, y=28, m=29
+Move -9
+k-1=97 and k+1=99
+true 18
+x=18, n=24, y=27, m=29
+Move -7
+k-1=99 and k+1=101
+true 19
+x=19, n=24, y=26, m=29
+Move -5
+k-1=101 and k+1=103
+true 20
+x=20, n=24, y=25, m=29
+Move -3
+k-1=103 and k+1=105
+true 21
+x=21, n=24, y=24, m=29
+Move -1
+k-1=105 and k+1=0
+true 22
+x=22, n=24, y=23, m=29
+Move 1
+k-1=0 and k+1=2
+true 23
+x=23, n=24, y=22, m=29
+Move 3
+k-1=2 and k+1=4
+true 24
+x=24, n=24, y=21, m=29
+Move 5
+k-1=4 and k+1=6
+true 25
+x=25, n=24, y=20, m=29
+Move 7
+k-1=6 and k+1=8
+true 26
+x=26, n=24, y=19, m=29
+Move 9
+k-1=8 and k+1=10
+true 27
+x=27, n=24, y=18, m=29
+Move 11
+k-1=10 and k+1=12
+true 28
+x=28, n=24, y=17, m=29
+Move 13
+k-1=12 and k+1=14
+true 29
+x=29, n=24, y=16, m=29
+Move 15
+k-1=14 and k+1=16
+true 30
+x=30, n=24, y=15, m=29
+Move 17
+k-1=16 and k+1=18
+true 31
+x=31, n=24, y=14, m=29
+Move 19
+k-1=18 and k+1=20
+true 32
+x=32, n=24, y=13, m=29
+Move 21
+k-1=20 and k+1=22
+true 33
+x=33, n=24, y=12, m=29
+Move 23
+k-1=22 and k+1=24
+true 34
+x=34, n=24, y=11, m=29
+Move 25
+k-1=24 and k+1=26
+true 35
+x=35, n=24, y=10, m=29
+Move 27
+k-1=26 and k+1=28
+true 36
+x=36, n=24, y=9, m=29
+Move 29
+k-1=28 and k+1=30
+true 37
+x=37, n=24, y=8, m=29
+Move 31
+k-1=30 and k+1=32
+true 38
+x=38, n=24, y=7, m=29
+Move 33
+k-1=32 and k+1=34
+true 39
+x=39, n=24, y=6, m=29
+Move 35
+k-1=34 and k+1=36
+true 40
+x=40, n=24, y=5, m=29
+Move 37
+k-1=36 and k+1=38
+true 41
+x=41, n=24, y=4, m=29
+Move 39
+k-1=38 and k+1=40
+true 42
+x=42, n=24, y=3, m=29
+Move 41
+k-1=40 and k+1=42
+true 43
+x=43, n=24, y=2, m=29
+Move 43
+k-1=42 and k+1=44
+true 44
+x=44, n=24, y=1, m=29
+Move 45
+k-1=44 and k+1=46
+false 44
+x=45, n=24, y=0, m=29
+Path 46
+Move -46
+k-1=60 and k+1=62
+true 0
+x=0, n=24, y=46, m=29
+Move -44
+k-1=62 and k+1=64
+true 1
+x=1, n=24, y=45, m=29
+Move -42
+k-1=64 and k+1=66
+true 2
+x=2, n=24, y=44, m=29
+Move -40
+k-1=66 and k+1=68
+true 3
+x=3, n=24, y=43, m=29
+Move -38
+k-1=68 and k+1=70
+true 4
+x=4, n=24, y=42, m=29
+Move -36
+k-1=70 and k+1=72
+true 5
+x=5, n=24, y=41, m=29
+Move -34
+k-1=72 and k+1=74
+true 6
+x=6, n=24, y=40, m=29
+Move -32
+k-1=74 and k+1=76
+true 7
+x=7, n=24, y=39, m=29
+Move -30
+k-1=76 and k+1=78
+true 8
+x=8, n=24, y=38, m=29
+Move -28
+k-1=78 and k+1=80
+true 9
+x=9, n=24, y=37, m=29
+Move -26
+k-1=80 and k+1=82
+true 10
+x=10, n=24, y=36, m=29
+Move -24
+k-1=82 and k+1=84
+true 11
+x=11, n=24, y=35, m=29
+Move -22
+k-1=84 and k+1=86
+true 12
+x=12, n=24, y=34, m=29
+Move -20
+k-1=86 and k+1=88
+true 13
+x=13, n=24, y=33, m=29
+Move -18
+k-1=88 and k+1=90
+true 14
+x=14, n=24, y=32, m=29
+Move -16
+k-1=90 and k+1=92
+true 15
+x=15, n=24, y=31, m=29
+Move -14
+k-1=92 and k+1=94
+true 16
+x=16, n=24, y=30, m=29
+Move -12
+k-1=94 and k+1=96
+true 17
+x=17, n=24, y=29, m=29
+Move -10
+k-1=96 and k+1=98
+true 18
+x=18, n=24, y=28, m=29
+Move -8
+k-1=98 and k+1=100
+true 19
+x=19, n=24, y=27, m=29
+Move -6
+k-1=100 and k+1=102
+true 20
+x=20, n=24, y=26, m=29
+Move -4
+k-1=102 and k+1=104
+true 21
+x=21, n=24, y=25, m=29
+Move -2
+k-1=104 and k+1=106
+true 22
+x=22, n=24, y=24, m=29
+Move 0
+k-1=106 and k+1=1
+true 23
+x=23, n=24, y=23, m=29
+Move 2
+k-1=1 and k+1=3
+true 24
+x=24, n=24, y=22, m=29
+Move 4
+k-1=3 and k+1=5
+true 25
+x=25, n=24, y=21, m=29
+Move 6
+k-1=5 and k+1=7
+true 26
+x=26, n=24, y=20, m=29
+Move 8
+k-1=7 and k+1=9
+true 27
+x=27, n=24, y=19, m=29
+Move 10
+k-1=9 and k+1=11
+true 28
+x=28, n=24, y=18, m=29
+Move 12
+k-1=11 and k+1=13
+true 29
+x=29, n=24, y=17, m=29
+Move 14
+k-1=13 and k+1=15
+true 30
+x=30, n=24, y=16, m=29
+Move 16
+k-1=15 and k+1=17
+true 31
+x=31, n=24, y=15, m=29
+Move 18
+k-1=17 and k+1=19
+true 32
+x=32, n=24, y=14, m=29
+Move 20
+k-1=19 and k+1=21
+true 33
+x=33, n=24, y=13, m=29
+Move 22
+k-1=21 and k+1=23
+true 34
+x=34, n=24, y=12, m=29
+Move 24
+k-1=23 and k+1=25
+true 35
+x=35, n=24, y=11, m=29
+Move 26
+k-1=25 and k+1=27
+true 36
+x=36, n=24, y=10, m=29
+Move 28
+k-1=27 and k+1=29
+true 37
+x=37, n=24, y=9, m=29
+Move 30
+k-1=29 and k+1=31
+true 38
+x=38, n=24, y=8, m=29
+Move 32
+k-1=31 and k+1=33
+true 39
+x=39, n=24, y=7, m=29
+Move 34
+k-1=33 and k+1=35
+true 40
+x=40, n=24, y=6, m=29
+Move 36
+k-1=35 and k+1=37
+true 41
+x=41, n=24, y=5, m=29
+Move 38
+k-1=37 and k+1=39
+true 42
+x=42, n=24, y=4, m=29
+Move 40
+k-1=39 and k+1=41
+true 43
+x=43, n=24, y=3, m=29
+Move 42
+k-1=41 and k+1=43
+true 44
+x=44, n=24, y=2, m=29
+Move 44
+k-1=43 and k+1=45
+true 45
+x=45, n=24, y=1, m=29
+Move 46
+k-1=45 and k+1=47
+false 45
+x=46, n=24, y=0, m=29
+Path 47
+Move -47
+k-1=59 and k+1=61
+true 0
+x=0, n=24, y=47, m=29
+Move -45
+k-1=61 and k+1=63
+true 1
+x=1, n=24, y=46, m=29
+Move -43
+k-1=63 and k+1=65
+true 2
+x=2, n=24, y=45, m=29
+Move -41
+k-1=65 and k+1=67
+true 3
+x=3, n=24, y=44, m=29
+Move -39
+k-1=67 and k+1=69
+true 4
+x=4, n=24, y=43, m=29
+Move -37
+k-1=69 and k+1=71
+true 5
+x=5, n=24, y=42, m=29
+Move -35
+k-1=71 and k+1=73
+true 6
+x=6, n=24, y=41, m=29
+Move -33
+k-1=73 and k+1=75
+true 7
+x=7, n=24, y=40, m=29
+Move -31
+k-1=75 and k+1=77
+true 8
+x=8, n=24, y=39, m=29
+Move -29
+k-1=77 and k+1=79
+true 9
+x=9, n=24, y=38, m=29
+Move -27
+k-1=79 and k+1=81
+true 10
+x=10, n=24, y=37, m=29
+Move -25
+k-1=81 and k+1=83
+true 11
+x=11, n=24, y=36, m=29
+Move -23
+k-1=83 and k+1=85
+true 12
+x=12, n=24, y=35, m=29
+Move -21
+k-1=85 and k+1=87
+true 13
+x=13, n=24, y=34, m=29
+Move -19
+k-1=87 and k+1=89
+true 14
+x=14, n=24, y=33, m=29
+Move -17
+k-1=89 and k+1=91
+true 15
+x=15, n=24, y=32, m=29
+Move -15
+k-1=91 and k+1=93
+true 16
+x=16, n=24, y=31, m=29
+Move -13
+k-1=93 and k+1=95
+true 17
+x=17, n=24, y=30, m=29
+Move -11
+k-1=95 and k+1=97
+true 18
+x=18, n=24, y=29, m=29
+Move -9
+k-1=97 and k+1=99
+true 19
+x=19, n=24, y=28, m=29
+Move -7
+k-1=99 and k+1=101
+true 20
+x=20, n=24, y=27, m=29
+Move -5
+k-1=101 and k+1=103
+true 21
+x=21, n=24, y=26, m=29
+Move -3
+k-1=103 and k+1=105
+true 22
+x=22, n=24, y=25, m=29
+Move -1
+k-1=105 and k+1=0
+true 23
+x=23, n=24, y=24, m=29
+Move 1
+k-1=0 and k+1=2
+true 24
+x=24, n=24, y=23, m=29
+Move 3
+k-1=2 and k+1=4
+true 25
+x=25, n=24, y=22, m=29
+Move 5
+k-1=4 and k+1=6
+true 26
+x=26, n=24, y=21, m=29
+Move 7
+k-1=6 and k+1=8
+true 27
+x=27, n=24, y=20, m=29
+Move 9
+k-1=8 and k+1=10
+true 28
+x=28, n=24, y=19, m=29
+Move 11
+k-1=10 and k+1=12
+true 29
+x=29, n=24, y=18, m=29
+Move 13
+k-1=12 and k+1=14
+true 30
+x=30, n=24, y=17, m=29
+Move 15
+k-1=14 and k+1=16
+true 31
+x=31, n=24, y=16, m=29
+Move 17
+k-1=16 and k+1=18
+true 32
+x=32, n=24, y=15, m=29
+Move 19
+k-1=18 and k+1=20
+true 33
+x=33, n=24, y=14, m=29
+Move 21
+k-1=20 and k+1=22
+true 34
+x=34, n=24, y=13, m=29
+Move 23
+k-1=22 and k+1=24
+true 35
+x=35, n=24, y=12, m=29
+Move 25
+k-1=24 and k+1=26
+true 36
+x=36, n=24, y=11, m=29
+Move 27
+k-1=26 and k+1=28
+true 37
+x=37, n=24, y=10, m=29
+Move 29
+k-1=28 and k+1=30
+true 38
+x=38, n=24, y=9, m=29
+Move 31
+k-1=30 and k+1=32
+true 39
+x=39, n=24, y=8, m=29
+Move 33
+k-1=32 and k+1=34
+true 40
+x=40, n=24, y=7, m=29
+Move 35
+k-1=34 and k+1=36
+true 41
+x=41, n=24, y=6, m=29
+Move 37
+k-1=36 and k+1=38
+true 42
+x=42, n=24, y=5, m=29
+Move 39
+k-1=38 and k+1=40
+true 43
+x=43, n=24, y=4, m=29
+Move 41
+k-1=40 and k+1=42
+true 44
+x=44, n=24, y=3, m=29
+Move 43
+k-1=42 and k+1=44
+true 45
+x=45, n=24, y=2, m=29
+Move 45
+k-1=44 and k+1=46
+true 46
+x=46, n=24, y=1, m=29
+Move 47
+k-1=46 and k+1=48
+false 46
+x=47, n=24, y=0, m=29
+Path 48
+Move -48
+k-1=58 and k+1=60
+true 0
+x=0, n=24, y=48, m=29
+Move -46
+k-1=60 and k+1=62
+true 1
+x=1, n=24, y=47, m=29
+Move -44
+k-1=62 and k+1=64
+true 2
+x=2, n=24, y=46, m=29
+Move -42
+k-1=64 and k+1=66
+true 3
+x=3, n=24, y=45, m=29
+Move -40
+k-1=66 and k+1=68
+true 4
+x=4, n=24, y=44, m=29
+Move -38
+k-1=68 and k+1=70
+true 5
+x=5, n=24, y=43, m=29
+Move -36
+k-1=70 and k+1=72
+true 6
+x=6, n=24, y=42, m=29
+Move -34
+k-1=72 and k+1=74
+true 7
+x=7, n=24, y=41, m=29
+Move -32
+k-1=74 and k+1=76
+true 8
+x=8, n=24, y=40, m=29
+Move -30
+k-1=76 and k+1=78
+true 9
+x=9, n=24, y=39, m=29
+Move -28
+k-1=78 and k+1=80
+true 10
+x=10, n=24, y=38, m=29
+Move -26
+k-1=80 and k+1=82
+true 11
+x=11, n=24, y=37, m=29
+Move -24
+k-1=82 and k+1=84
+true 12
+x=12, n=24, y=36, m=29
+Move -22
+k-1=84 and k+1=86
+true 13
+x=13, n=24, y=35, m=29
+Move -20
+k-1=86 and k+1=88
+true 14
+x=14, n=24, y=34, m=29
+Move -18
+k-1=88 and k+1=90
+true 15
+x=15, n=24, y=33, m=29
+Move -16
+k-1=90 and k+1=92
+true 16
+x=16, n=24, y=32, m=29
+Move -14
+k-1=92 and k+1=94
+true 17
+x=17, n=24, y=31, m=29
+Move -12
+k-1=94 and k+1=96
+true 18
+x=18, n=24, y=30, m=29
+Move -10
+k-1=96 and k+1=98
+true 19
+x=19, n=24, y=29, m=29
+Move -8
+k-1=98 and k+1=100
+true 20
+x=20, n=24, y=28, m=29
+Move -6
+k-1=100 and k+1=102
+true 21
+x=21, n=24, y=27, m=29
+Move -4
+k-1=102 and k+1=104
+true 22
+x=22, n=24, y=26, m=29
+Move -2
+k-1=104 and k+1=106
+true 23
+x=23, n=24, y=25, m=29
+Move 0
+k-1=106 and k+1=1
+true 24
+x=24, n=24, y=24, m=29
+Move 2
+k-1=1 and k+1=3
+true 25
+x=25, n=24, y=23, m=29
+Move 4
+k-1=3 and k+1=5
+true 26
+x=26, n=24, y=22, m=29
+Move 6
+k-1=5 and k+1=7
+true 27
+x=27, n=24, y=21, m=29
+Move 8
+k-1=7 and k+1=9
+true 28
+x=28, n=24, y=20, m=29
+Move 10
+k-1=9 and k+1=11
+true 29
+x=29, n=24, y=19, m=29
+Move 12
+k-1=11 and k+1=13
+true 30
+x=30, n=24, y=18, m=29
+Move 14
+k-1=13 and k+1=15
+true 31
+x=31, n=24, y=17, m=29
+Move 16
+k-1=15 and k+1=17
+true 32
+x=32, n=24, y=16, m=29
+Move 18
+k-1=17 and k+1=19
+true 33
+x=33, n=24, y=15, m=29
+Move 20
+k-1=19 and k+1=21
+true 34
+x=34, n=24, y=14, m=29
+Move 22
+k-1=21 and k+1=23
+true 35
+x=35, n=24, y=13, m=29
+Move 24
+k-1=23 and k+1=25
+true 36
+x=36, n=24, y=12, m=29
+Move 26
+k-1=25 and k+1=27
+true 37
+x=37, n=24, y=11, m=29
+Move 28
+k-1=27 and k+1=29
+true 38
+x=38, n=24, y=10, m=29
+Move 30
+k-1=29 and k+1=31
+true 39
+x=39, n=24, y=9, m=29
+Move 32
+k-1=31 and k+1=33
+true 40
+x=40, n=24, y=8, m=29
+Move 34
+k-1=33 and k+1=35
+true 41
+x=41, n=24, y=7, m=29
+Move 36
+k-1=35 and k+1=37
+true 42
+x=42, n=24, y=6, m=29
+Move 38
+k-1=37 and k+1=39
+true 43
+x=43, n=24, y=5, m=29
+Move 40
+k-1=39 and k+1=41
+true 44
+x=44, n=24, y=4, m=29
+Move 42
+k-1=41 and k+1=43
+true 45
+x=45, n=24, y=3, m=29
+Move 44
+k-1=43 and k+1=45
+true 46
+x=46, n=24, y=2, m=29
+Move 46
+k-1=45 and k+1=47
+true 47
+x=47, n=24, y=1, m=29
+Move 48
+k-1=47 and k+1=49
+false 47
+x=48, n=24, y=0, m=29
+Path 49
+Move -49
+k-1=57 and k+1=59
+true 0
+x=0, n=24, y=49, m=29
+Move -47
+k-1=59 and k+1=61
+true 1
+x=1, n=24, y=48, m=29
+Move -45
+k-1=61 and k+1=63
+true 2
+x=2, n=24, y=47, m=29
+Move -43
+k-1=63 and k+1=65
+true 3
+x=3, n=24, y=46, m=29
+Move -41
+k-1=65 and k+1=67
+true 4
+x=4, n=24, y=45, m=29
+Move -39
+k-1=67 and k+1=69
+true 5
+x=5, n=24, y=44, m=29
+Move -37
+k-1=69 and k+1=71
+true 6
+x=6, n=24, y=43, m=29
+Move -35
+k-1=71 and k+1=73
+true 7
+x=7, n=24, y=42, m=29
+Move -33
+k-1=73 and k+1=75
+true 8
+x=8, n=24, y=41, m=29
+Move -31
+k-1=75 and k+1=77
+true 9
+x=9, n=24, y=40, m=29
+Move -29
+k-1=77 and k+1=79
+true 10
+x=10, n=24, y=39, m=29
+Move -27
+k-1=79 and k+1=81
+true 11
+x=11, n=24, y=38, m=29
+Move -25
+k-1=81 and k+1=83
+true 12
+x=12, n=24, y=37, m=29
+Move -23
+k-1=83 and k+1=85
+true 13
+x=13, n=24, y=36, m=29
+Move -21
+k-1=85 and k+1=87
+true 14
+x=14, n=24, y=35, m=29
+Move -19
+k-1=87 and k+1=89
+true 15
+x=15, n=24, y=34, m=29
+Move -17
+k-1=89 and k+1=91
+true 16
+x=16, n=24, y=33, m=29
+Move -15
+k-1=91 and k+1=93
+true 17
+x=17, n=24, y=32, m=29
+Move -13
+k-1=93 and k+1=95
+true 18
+x=18, n=24, y=31, m=29
+Move -11
+k-1=95 and k+1=97
+true 19
+x=19, n=24, y=30, m=29
+Move -9
+k-1=97 and k+1=99
+true 20
+x=20, n=24, y=29, m=29
+Move -7
+k-1=99 and k+1=101
+true 21
+x=21, n=24, y=28, m=29
+Move -5
+k-1=101 and k+1=103
+true 22
+x=22, n=24, y=27, m=29
+Move -3
+k-1=103 and k+1=105
+true 23
+x=23, n=24, y=26, m=29
+Move -1
+k-1=105 and k+1=0
+true 24
+x=24, n=24, y=25, m=29
+Move 1
+k-1=0 and k+1=2
+true 25
+x=25, n=24, y=24, m=29
+Move 3
+k-1=2 and k+1=4
+true 26
+x=26, n=24, y=23, m=29
+Move 5
+k-1=4 and k+1=6
+true 27
+x=27, n=24, y=22, m=29
+Move 7
+k-1=6 and k+1=8
+true 28
+x=28, n=24, y=21, m=29
+Move 9
+k-1=8 and k+1=10
+true 29
+x=29, n=24, y=20, m=29
+Move 11
+k-1=10 and k+1=12
+true 30
+x=30, n=24, y=19, m=29
+Move 13
+k-1=12 and k+1=14
+true 31
+x=31, n=24, y=18, m=29
+Move 15
+k-1=14 and k+1=16
+true 32
+x=32, n=24, y=17, m=29
+Move 17
+k-1=16 and k+1=18
+true 33
+x=33, n=24, y=16, m=29
+Move 19
+k-1=18 and k+1=20
+true 34
+x=34, n=24, y=15, m=29
+Move 21
+k-1=20 and k+1=22
+true 35
+x=35, n=24, y=14, m=29
+Move 23
+k-1=22 and k+1=24
+true 36
+x=36, n=24, y=13, m=29
+Move 25
+k-1=24 and k+1=26
+true 37
+x=37, n=24, y=12, m=29
+Move 27
+k-1=26 and k+1=28
+true 38
+x=38, n=24, y=11, m=29
+Move 29
+k-1=28 and k+1=30
+true 39
+x=39, n=24, y=10, m=29
+Move 31
+k-1=30 and k+1=32
+true 40
+x=40, n=24, y=9, m=29
+Move 33
+k-1=32 and k+1=34
+true 41
+x=41, n=24, y=8, m=29
+Move 35
+k-1=34 and k+1=36
+true 42
+x=42, n=24, y=7, m=29
+Move 37
+k-1=36 and k+1=38
+true 43
+x=43, n=24, y=6, m=29
+Move 39
+k-1=38 and k+1=40
+true 44
+x=44, n=24, y=5, m=29
+Move 41
+k-1=40 and k+1=42
+true 45
+x=45, n=24, y=4, m=29
+Move 43
+k-1=42 and k+1=44
+true 46
+x=46, n=24, y=3, m=29
+Move 45
+k-1=44 and k+1=46
+true 47
+x=47, n=24, y=2, m=29
+Move 47
+k-1=46 and k+1=48
+true 48
+x=48, n=24, y=1, m=29
+Move 49
+k-1=48 and k+1=50
+false 48
+x=49, n=24, y=0, m=29
+Path 50
+Move -50
+k-1=56 and k+1=58
+true 0
+x=0, n=24, y=50, m=29
+Move -48
+k-1=58 and k+1=60
+true 1
+x=1, n=24, y=49, m=29
+Move -46
+k-1=60 and k+1=62
+true 2
+x=2, n=24, y=48, m=29
+Move -44
+k-1=62 and k+1=64
+true 3
+x=3, n=24, y=47, m=29
+Move -42
+k-1=64 and k+1=66
+true 4
+x=4, n=24, y=46, m=29
+Move -40
+k-1=66 and k+1=68
+true 5
+x=5, n=24, y=45, m=29
+Move -38
+k-1=68 and k+1=70
+true 6
+x=6, n=24, y=44, m=29
+Move -36
+k-1=70 and k+1=72
+true 7
+x=7, n=24, y=43, m=29
+Move -34
+k-1=72 and k+1=74
+true 8
+x=8, n=24, y=42, m=29
+Move -32
+k-1=74 and k+1=76
+true 9
+x=9, n=24, y=41, m=29
+Move -30
+k-1=76 and k+1=78
+true 10
+x=10, n=24, y=40, m=29
+Move -28
+k-1=78 and k+1=80
+true 11
+x=11, n=24, y=39, m=29
+Move -26
+k-1=80 and k+1=82
+true 12
+x=12, n=24, y=38, m=29
+Move -24
+k-1=82 and k+1=84
+true 13
+x=13, n=24, y=37, m=29
+Move -22
+k-1=84 and k+1=86
+true 14
+x=14, n=24, y=36, m=29
+Move -20
+k-1=86 and k+1=88
+true 15
+x=15, n=24, y=35, m=29
+Move -18
+k-1=88 and k+1=90
+true 16
+x=16, n=24, y=34, m=29
+Move -16
+k-1=90 and k+1=92
+true 17
+x=17, n=24, y=33, m=29
+Move -14
+k-1=92 and k+1=94
+true 18
+x=18, n=24, y=32, m=29
+Move -12
+k-1=94 and k+1=96
+true 19
+x=19, n=24, y=31, m=29
+Move -10
+k-1=96 and k+1=98
+true 20
+x=20, n=24, y=30, m=29
+Move -8
+k-1=98 and k+1=100
+true 21
+x=21, n=24, y=29, m=29
+Move -6
+k-1=100 and k+1=102
+true 22
+x=22, n=24, y=28, m=29
+Move -4
+k-1=102 and k+1=104
+true 23
+x=23, n=24, y=27, m=29
+Move -2
+k-1=104 and k+1=106
+true 24
+x=24, n=24, y=26, m=29
+Move 0
+k-1=106 and k+1=1
+true 25
+x=25, n=24, y=25, m=29
+Move 2
+k-1=1 and k+1=3
+true 26
+x=26, n=24, y=24, m=29
+Move 4
+k-1=3 and k+1=5
+true 27
+x=27, n=24, y=23, m=29
+Move 6
+k-1=5 and k+1=7
+true 28
+x=28, n=24, y=22, m=29
+Move 8
+k-1=7 and k+1=9
+true 29
+x=29, n=24, y=21, m=29
+Move 10
+k-1=9 and k+1=11
+true 30
+x=30, n=24, y=20, m=29
+Move 12
+k-1=11 and k+1=13
+true 31
+x=31, n=24, y=19, m=29
+Move 14
+k-1=13 and k+1=15
+true 32
+x=32, n=24, y=18, m=29
+Move 16
+k-1=15 and k+1=17
+true 33
+x=33, n=24, y=17, m=29
+Move 18
+k-1=17 and k+1=19
+true 34
+x=34, n=24, y=16, m=29
+Move 20
+k-1=19 and k+1=21
+true 35
+x=35, n=24, y=15, m=29
+Move 22
+k-1=21 and k+1=23
+true 36
+x=36, n=24, y=14, m=29
+Move 24
+k-1=23 and k+1=25
+true 37
+x=37, n=24, y=13, m=29
+Move 26
+k-1=25 and k+1=27
+true 38
+x=38, n=24, y=12, m=29
+Move 28
+k-1=27 and k+1=29
+true 39
+x=39, n=24, y=11, m=29
+Move 30
+k-1=29 and k+1=31
+true 40
+x=40, n=24, y=10, m=29
+Move 32
+k-1=31 and k+1=33
+true 41
+x=41, n=24, y=9, m=29
+Move 34
+k-1=33 and k+1=35
+true 42
+x=42, n=24, y=8, m=29
+Move 36
+k-1=35 and k+1=37
+true 43
+x=43, n=24, y=7, m=29
+Move 38
+k-1=37 and k+1=39
+true 44
+x=44, n=24, y=6, m=29
+Move 40
+k-1=39 and k+1=41
+true 45
+x=45, n=24, y=5, m=29
+Move 42
+k-1=41 and k+1=43
+true 46
+x=46, n=24, y=4, m=29
+Move 44
+k-1=43 and k+1=45
+true 47
+x=47, n=24, y=3, m=29
+Move 46
+k-1=45 and k+1=47
+true 48
+x=48, n=24, y=2, m=29
+Move 48
+k-1=47 and k+1=49
+true 49
+x=49, n=24, y=1, m=29
+Move 50
+k-1=49 and k+1=51
+false 49
+x=50, n=24, y=0, m=29
+Path 51
+Move -51
+k-1=55 and k+1=57
+true 0
+x=0, n=24, y=51, m=29
+Move -49
+k-1=57 and k+1=59
+true 1
+x=1, n=24, y=50, m=29
+Move -47
+k-1=59 and k+1=61
+true 2
+x=2, n=24, y=49, m=29
+Move -45
+k-1=61 and k+1=63
+true 3
+x=3, n=24, y=48, m=29
+Move -43
+k-1=63 and k+1=65
+true 4
+x=4, n=24, y=47, m=29
+Move -41
+k-1=65 and k+1=67
+true 5
+x=5, n=24, y=46, m=29
+Move -39
+k-1=67 and k+1=69
+true 6
+x=6, n=24, y=45, m=29
+Move -37
+k-1=69 and k+1=71
+true 7
+x=7, n=24, y=44, m=29
+Move -35
+k-1=71 and k+1=73
+true 8
+x=8, n=24, y=43, m=29
+Move -33
+k-1=73 and k+1=75
+true 9
+x=9, n=24, y=42, m=29
+Move -31
+k-1=75 and k+1=77
+true 10
+x=10, n=24, y=41, m=29
+Move -29
+k-1=77 and k+1=79
+true 11
+x=11, n=24, y=40, m=29
+Move -27
+k-1=79 and k+1=81
+true 12
+x=12, n=24, y=39, m=29
+Move -25
+k-1=81 and k+1=83
+true 13
+x=13, n=24, y=38, m=29
+Move -23
+k-1=83 and k+1=85
+true 14
+x=14, n=24, y=37, m=29
+Move -21
+k-1=85 and k+1=87
+true 15
+x=15, n=24, y=36, m=29
+Move -19
+k-1=87 and k+1=89
+true 16
+x=16, n=24, y=35, m=29
+Move -17
+k-1=89 and k+1=91
+true 17
+x=17, n=24, y=34, m=29
+Move -15
+k-1=91 and k+1=93
+true 18
+x=18, n=24, y=33, m=29
+Move -13
+k-1=93 and k+1=95
+true 19
+x=19, n=24, y=32, m=29
+Move -11
+k-1=95 and k+1=97
+true 20
+x=20, n=24, y=31, m=29
+Move -9
+k-1=97 and k+1=99
+true 21
+x=21, n=24, y=30, m=29
+Move -7
+k-1=99 and k+1=101
+true 22
+x=22, n=24, y=29, m=29
+Move -5
+k-1=101 and k+1=103
+true 23
+x=23, n=24, y=28, m=29
+Move -3
+k-1=103 and k+1=105
+true 24
+x=24, n=24, y=27, m=29
+Move -1
+k-1=105 and k+1=0
+true 25
+x=25, n=24, y=26, m=29
+Move 1
+k-1=0 and k+1=2
+true 26
+x=26, n=24, y=25, m=29
+Move 3
+k-1=2 and k+1=4
+true 27
+x=27, n=24, y=24, m=29
+Move 5
+k-1=4 and k+1=6
+true 28
+x=28, n=24, y=23, m=29
+Move 7
+k-1=6 and k+1=8
+true 29
+x=29, n=24, y=22, m=29
+Move 9
+k-1=8 and k+1=10
+true 30
+x=30, n=24, y=21, m=29
+Move 11
+k-1=10 and k+1=12
+true 31
+x=31, n=24, y=20, m=29
+Move 13
+k-1=12 and k+1=14
+true 32
+x=32, n=24, y=19, m=29
+Move 15
+k-1=14 and k+1=16
+true 33
+x=33, n=24, y=18, m=29
+Move 17
+k-1=16 and k+1=18
+true 34
+x=34, n=24, y=17, m=29
+Move 19
+k-1=18 and k+1=20
+true 35
+x=35, n=24, y=16, m=29
+Move 21
+k-1=20 and k+1=22
+true 36
+x=36, n=24, y=15, m=29
+Move 23
+k-1=22 and k+1=24
+true 37
+x=37, n=24, y=14, m=29
+Move 25
+k-1=24 and k+1=26
+true 38
+x=38, n=24, y=13, m=29
+Move 27
+k-1=26 and k+1=28
+true 39
+x=39, n=24, y=12, m=29
+Move 29
+k-1=28 and k+1=30
+true 40
+x=40, n=24, y=11, m=29
+Move 31
+k-1=30 and k+1=32
+true 41
+x=41, n=24, y=10, m=29
+Move 33
+k-1=32 and k+1=34
+true 42
+x=42, n=24, y=9, m=29
+Move 35
+k-1=34 and k+1=36
+true 43
+x=43, n=24, y=8, m=29
+Move 37
+k-1=36 and k+1=38
+true 44
+x=44, n=24, y=7, m=29
+Move 39
+k-1=38 and k+1=40
+true 45
+x=45, n=24, y=6, m=29
+Move 41
+k-1=40 and k+1=42
+true 46
+x=46, n=24, y=5, m=29
+Move 43
+k-1=42 and k+1=44
+true 47
+x=47, n=24, y=4, m=29
+Move 45
+k-1=44 and k+1=46
+true 48
+x=48, n=24, y=3, m=29
+Move 47
+k-1=46 and k+1=48
+true 49
+x=49, n=24, y=2, m=29
+Move 49
+k-1=48 and k+1=50
+true 50
+x=50, n=24, y=1, m=29
+Move 51
+k-1=50 and k+1=52
+false 50
+x=51, n=24, y=0, m=29
+Path 52
+Move -52
+k-1=54 and k+1=56
+true 0
+x=0, n=24, y=52, m=29
+Move -50
+k-1=56 and k+1=58
+true 1
+x=1, n=24, y=51, m=29
+Move -48
+k-1=58 and k+1=60
+true 2
+x=2, n=24, y=50, m=29
+Move -46
+k-1=60 and k+1=62
+true 3
+x=3, n=24, y=49, m=29
+Move -44
+k-1=62 and k+1=64
+true 4
+x=4, n=24, y=48, m=29
+Move -42
+k-1=64 and k+1=66
+true 5
+x=5, n=24, y=47, m=29
+Move -40
+k-1=66 and k+1=68
+true 6
+x=6, n=24, y=46, m=29
+Move -38
+k-1=68 and k+1=70
+true 7
+x=7, n=24, y=45, m=29
+Move -36
+k-1=70 and k+1=72
+true 8
+x=8, n=24, y=44, m=29
+Move -34
+k-1=72 and k+1=74
+true 9
+x=9, n=24, y=43, m=29
+Move -32
+k-1=74 and k+1=76
+true 10
+x=10, n=24, y=42, m=29
+Move -30
+k-1=76 and k+1=78
+true 11
+x=11, n=24, y=41, m=29
+Move -28
+k-1=78 and k+1=80
+true 12
+x=12, n=24, y=40, m=29
+Move -26
+k-1=80 and k+1=82
+true 13
+x=13, n=24, y=39, m=29
+Move -24
+k-1=82 and k+1=84
+true 14
+x=14, n=24, y=38, m=29
+Move -22
+k-1=84 and k+1=86
+true 15
+x=15, n=24, y=37, m=29
+Move -20
+k-1=86 and k+1=88
+true 16
+x=16, n=24, y=36, m=29
+Move -18
+k-1=88 and k+1=90
+true 17
+x=17, n=24, y=35, m=29
+Move -16
+k-1=90 and k+1=92
+true 18
+x=18, n=24, y=34, m=29
+Move -14
+k-1=92 and k+1=94
+true 19
+x=19, n=24, y=33, m=29
+Move -12
+k-1=94 and k+1=96
+true 20
+x=20, n=24, y=32, m=29
+Move -10
+k-1=96 and k+1=98
+true 21
+x=21, n=24, y=31, m=29
+Move -8
+k-1=98 and k+1=100
+true 22
+x=22, n=24, y=30, m=29
+Move -6
+k-1=100 and k+1=102
+true 23
+x=23, n=24, y=29, m=29
+Move -4
+k-1=102 and k+1=104
+true 24
+x=24, n=24, y=28, m=29
+Move -2
+k-1=104 and k+1=106
+true 25
+x=25, n=24, y=27, m=29
+Move 0
+k-1=106 and k+1=1
+true 26
+x=26, n=24, y=26, m=29
+Move 2
+k-1=1 and k+1=3
+true 27
+x=27, n=24, y=25, m=29
+Move 4
+k-1=3 and k+1=5
+true 28
+x=28, n=24, y=24, m=29
+Move 6
+k-1=5 and k+1=7
+true 29
+x=29, n=24, y=23, m=29
+Move 8
+k-1=7 and k+1=9
+true 30
+x=30, n=24, y=22, m=29
+Move 10
+k-1=9 and k+1=11
+true 31
+x=31, n=24, y=21, m=29
+Move 12
+k-1=11 and k+1=13
+true 32
+x=32, n=24, y=20, m=29
+Move 14
+k-1=13 and k+1=15
+true 33
+x=33, n=24, y=19, m=29
+Move 16
+k-1=15 and k+1=17
+true 34
+x=34, n=24, y=18, m=29
+Move 18
+k-1=17 and k+1=19
+true 35
+x=35, n=24, y=17, m=29
+Move 20
+k-1=19 and k+1=21
+true 36
+x=36, n=24, y=16, m=29
+Move 22
+k-1=21 and k+1=23
+true 37
+x=37, n=24, y=15, m=29
+Move 24
+k-1=23 and k+1=25
+true 38
+x=38, n=24, y=14, m=29
+Move 26
+k-1=25 and k+1=27
+true 39
+x=39, n=24, y=13, m=29
+Move 28
+k-1=27 and k+1=29
+true 40
+x=40, n=24, y=12, m=29
+Move 30
+k-1=29 and k+1=31
+true 41
+x=41, n=24, y=11, m=29
+Move 32
+k-1=31 and k+1=33
+true 42
+x=42, n=24, y=10, m=29
+Move 34
+k-1=33 and k+1=35
+true 43
+x=43, n=24, y=9, m=29
+Move 36
+k-1=35 and k+1=37
+true 44
+x=44, n=24, y=8, m=29
+Move 38
+k-1=37 and k+1=39
+true 45
+x=45, n=24, y=7, m=29
+Move 40
+k-1=39 and k+1=41
+true 46
+x=46, n=24, y=6, m=29
+Move 42
+k-1=41 and k+1=43
+true 47
+x=47, n=24, y=5, m=29
+Move 44
+k-1=43 and k+1=45
+true 48
+x=48, n=24, y=4, m=29
+Move 46
+k-1=45 and k+1=47
+true 49
+x=49, n=24, y=3, m=29
+Move 48
+k-1=47 and k+1=49
+true 50
+x=50, n=24, y=2, m=29
+Move 50
+k-1=49 and k+1=51
+true 51
+x=51, n=24, y=1, m=29
+Move 52
+k-1=51 and k+1=53
+false
